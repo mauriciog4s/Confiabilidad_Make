@@ -1,0 +1,3241 @@
+[{
+  "log_id": "a7a7a3e4-59b7-47fe-8d5f-65b22ac5fe48",
+  "transaction_id": "9c1aa4e9-c614-4ac1-82cd-a31f7e487164",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 18203843",
+  "response_received": "JobID: fb1e5579-03e8-4884-9cbd-bc0dafb2b0ae",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-29 17:59:21.017657 UTC"
+}, {
+  "log_id": "abac9149-fdcd-4325-b8a7-c79dabdd722f",
+  "transaction_id": "2adc7080-8546-484f-9403-dfdfced4964c",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abbeea3489fb5153e41c7ae | Listas caídas: simit, reputacional, rama_unificada, rut, rut_estado",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-29 17:00:45.530586 UTC"
+}, {
+  "log_id": "ad9622cf-5b33-4460-b094-2971e3f1c0e9",
+  "transaction_id": "2adc7080-8546-484f-9403-dfdfced4964c",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1053777792",
+  "response_received": "JobID: 00e50a59-6ed7-44b4-957f-f553677f4975",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-29 16:59:23.006526 UTC"
+}, {
+  "log_id": "0cc6c8dc-8220-4ef3-a269-31cf2d1be3e0",
+  "transaction_id": "964a1a75-be1e-4bac-9179-f410112d6f59",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abbeb13711ade91b9616748",
+  "response_received": "Revisión Manual - Riesgo Alto",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-29 16:46:38.818095 UTC"
+}, {
+  "log_id": "d294513d-dd7a-47cc-8335-f1d9b8872078",
+  "transaction_id": "cbed0d2c-b233-463b-bb00-c3c0da8c01d3",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abbeb1341bad35bf37fa1b8",
+  "response_received": "Aprobado - Riesgo: bajo",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-29 16:46:24.368511 UTC"
+}, {
+  "log_id": "d110de7b-2452-4c17-9cdf-2ea02d750de3",
+  "transaction_id": "5da87649-0dd8-4e67-8c1e-578807acbecc",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abbeb1b206aa2b0fb0f6e66",
+  "response_received": "Aprobado - Riesgo: bajo",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-29 16:46:58.017810 UTC"
+}, {
+  "log_id": "4bf2bff6-e9f3-4f60-913f-9414dd001c76",
+  "transaction_id": "d3d6f38f-f64c-4ba7-8153-0427a30255af",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1063720612",
+  "response_received": "JobID: c98f4e60-c33d-4d16-b305-17bf12f50eaa",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 13:29:26.158495 UTC"
+}, {
+  "log_id": "52a83858-b87d-4107-b1d0-053023335e60",
+  "transaction_id": "2e7be41d-6c09-476a-b56a-b6dd847d8314",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1111800991",
+  "response_received": "JobID: c8cb61ac-95f2-4ad8-bc29-bc5ab13b08ad",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 13:29:33.040564 UTC"
+}, {
+  "log_id": "d0e70026-b038-4bea-97d2-7df9ab18b8ae",
+  "transaction_id": "211342c9-8e0c-4b08-9b0f-6c6933f06e72",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1097036089",
+  "response_received": "JobID: 2bab8701-25fe-4f3c-8632-7587f4be0e52",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 13:29:39.385699 UTC"
+}, {
+  "log_id": "ce52e62b-df27-4795-a24c-29a01f7d44d4",
+  "transaction_id": "1239b94a-ede2-42f4-90bf-34818b6ab92c",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1010095052",
+  "response_received": "JobID: d74357bf-bf53-48e6-bafa-5ee2074bc5c9",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 13:29:19.226260 UTC"
+}, {
+  "log_id": "92c6cefd-27c4-4c03-aae1-b15971edf255",
+  "transaction_id": "e958b531-8a36-46a1-9a9a-826df6c1f196",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1099373837",
+  "response_received": "JobID: 49ad78ce-3e27-43f8-98fa-d14608a89d91",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 13:29:50.895379 UTC"
+}, {
+  "log_id": "b9033761-964c-48e7-9c0b-c3165716078c",
+  "transaction_id": "a6f53c0f-58f6-49fd-8174-eff1c9c68647",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1095921976",
+  "response_received": "JobID: 7bcfc53a-5409-463b-80d3-9ccebe040b4a",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 13:29:45.310858 UTC"
+}, {
+  "log_id": "3d70281f-fe21-4afb-a002-617d56072bf2",
+  "transaction_id": "ba1250c6-0d42-4829-a1af-74934d681beb",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1001591844",
+  "response_received": "JobID: db141b1c-60a0-4667-ad86-32efa9f9e90d",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 20:59:21.179704 UTC"
+}, {
+  "log_id": "69ed9256-74d5-4808-9bc8-efd68ab18b67",
+  "transaction_id": "bbbe0c68-4dea-488f-bf0a-3d249a6167d8",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 24829803",
+  "response_received": "JobID: fcb9e48b-5ebf-4042-beab-3a3031c0c449",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 21:14:21.393685 UTC"
+}, {
+  "log_id": "0b659900-8065-409a-a1e6-982ab4b0a4db",
+  "transaction_id": "4b0ccc47-bd3c-4d65-b27d-2ba4f102fb1f",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1088313032",
+  "response_received": "JobID: da6cc201-a4bf-419e-9ae3-3d95a0820062",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 17:44:28.010103 UTC"
+}, {
+  "log_id": "25680f0a-391f-4550-8b48-f34e091f57c3",
+  "transaction_id": "5c166245-b3ac-468c-a8ac-e56104a89bb2",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1105061956",
+  "response_received": "JobID: 890dbb03-bdcf-4a11-a84e-743dec1df8d2",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 17:14:27.229868 UTC"
+}, {
+  "log_id": "471eb3fd-a902-4f36-a621-3b618a5e1744",
+  "transaction_id": "9bf48f68-d4f1-41e1-b812-43bf827ed7bf",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1095823197",
+  "response_received": "JobID: f1813d92-c17f-4186-b954-c1d6d6211891",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 13:29:57.232705 UTC"
+}, {
+  "log_id": "d38d3bb7-50d6-4f1d-bcc0-f787b32f0f58",
+  "transaction_id": "cfb9992e-157d-479b-bb19-a078b4b5ae2f",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1000444836",
+  "response_received": "JobID: 6f7cd9e3-4546-4219-ba84-c916ab57b5b8",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 14:29:26.932750 UTC"
+}, {
+  "log_id": "d3c31c3a-3247-49b9-b967-3b92090e8574",
+  "transaction_id": "b7fdd3d2-c702-41c5-b8c1-442a4847bee0",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1042065140",
+  "response_received": "JobID: 6f56568a-24ba-4d7c-bcfa-403e90c78684",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 17:59:22.888939 UTC"
+}, {
+  "log_id": "b54b08d9-34d5-4f82-88fa-5fa9e1550c55",
+  "transaction_id": "07a433dd-e2a1-4809-abeb-725c1c762edb",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1082964875",
+  "response_received": "JobID: 7377d0ae-1288-4277-9255-93ba6fef28f2",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 20:14:21.550874 UTC"
+}, {
+  "log_id": "a92b9ea2-b4ad-4bde-b7b6-7274bb4e3cf5",
+  "transaction_id": "e59290d1-6dfb-4b51-b9d7-97458d76715b",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1000193405",
+  "response_received": "JobID: 7de6fda7-3731-4bf0-be01-ef554e10c1fa",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 20:29:26.548742 UTC"
+}, {
+  "log_id": "e5f1f5c4-38f3-4330-8193-379edb76dd9e",
+  "transaction_id": "e59290d1-6dfb-4b51-b9d7-97458d76715b",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abace5f4ffb3889046a0845 | Listas caídas: simit, registraduria_certificado, reputacional, rama_unificada, rut, rut_estado",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-28 20:30:37.018945 UTC"
+}, {
+  "log_id": "d8a125a9-3718-44ec-9bdf-a29f48f215b9",
+  "transaction_id": "ba1250c6-0d42-4829-a1af-74934d681beb",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abad56bc540f4e159f38828 | Listas caídas: policia, runt_app, simit, contaduria, garantias_mobiliarias, sicaac, registraduria_certificado, personeriabog, rut, rut_estado",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-28 21:00:45.212613 UTC"
+}, {
+  "log_id": "b2ced016-dfac-46ca-8bbf-386e4d6be4a9",
+  "transaction_id": "bbbe0c68-4dea-488f-bf0a-3d249a6167d8",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abad8de36025a12bf48cbd2 | Listas caídas: procuraduria, simit, garantias_mobiliarias, reputacional, rama_unificada, rut, rut_estado",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-28 21:15:26.353460 UTC"
+}, {
+  "log_id": "fc1458ca-3ecb-472f-ac7d-ce860bb311c0",
+  "transaction_id": "5c166245-b3ac-468c-a8ac-e56104a89bb2",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abaa0b83e150887845e01f3 | Listas caídas: policia, simit, contadores_s, garantias_mobiliarias, personeriabog, reputacional, rut, rut_estado",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-28 17:15:55.065196 UTC"
+}, {
+  "log_id": "863bff1a-0d1f-4e9f-ac39-8e8d5c196d8f",
+  "transaction_id": "cfb9992e-157d-479b-bb19-a078b4b5ae2f",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6aba79eedc9dc92c812059ef | Listas caídas: rndc, garantias_mobiliarias, registraduria_certificado, rut, rut_estado, calijepms, bugajepms, palmirajepms",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-28 14:30:42.624723 UTC"
+}, {
+  "log_id": "10b7018f-9f05-4566-89fd-095e855a4b31",
+  "transaction_id": "e958b531-8a36-46a1-9a9a-826df6c1f196",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6aba6c1403212471a032ab7b | Listas caídas: policia, simit, garantias_mobiliarias, inpec, reputacional, rut, rut_estado, monteriajepms",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-28 13:33:11.829550 UTC"
+}, {
+  "log_id": "20358a81-4845-4d86-9070-847b10228327",
+  "transaction_id": "a6f53c0f-58f6-49fd-8174-eff1c9c68647",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6aba6c04a807d9d76dfa85fa | Listas caídas: contaduria, garantias_mobiliarias, inpec, reputacional, rut, rut_estado, monteriajepms",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-28 13:32:57.811086 UTC"
+}, {
+  "log_id": "dfd3c88e-92b6-4ab8-956e-ab0b79a8a8ae",
+  "transaction_id": "d3d6f38f-f64c-4ba7-8153-0427a30255af",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6aba6bde658535141594d756 | Listas caídas: simit, garantias_mobiliarias, delitos_sexuales, personeriabog, inpec, reputacional, rut, rut_estado, monteriajepms",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-28 13:30:34.783828 UTC"
+}, {
+  "log_id": "8ba011dd-8bf6-4a2f-a294-985b425644b0",
+  "transaction_id": "211342c9-8e0c-4b08-9b0f-6c6933f06e72",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6aba6bfe081296104426abb4 | Listas caídas: personeriabog, inpec, rut, rut_estado, monteriajepms",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-28 13:32:39.732582 UTC"
+}, {
+  "log_id": "a7de6351-8792-47aa-9b85-dc8e81d5a50f",
+  "transaction_id": "2e7be41d-6c09-476a-b56a-b6dd847d8314",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6aba6bf7b73b49bbe25b7d9a | Listas caídas: simit, garantias_mobiliarias, inpec, reputacional, rut, rut_estado, monteriajepms",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-28 13:31:42.059931 UTC"
+}, {
+  "log_id": "dc4893a3-aa79-4b58-b47a-27a6498ea4b9",
+  "transaction_id": "1239b94a-ede2-42f4-90bf-34818b6ab92c",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6aba6be97f7c1ec020dbdfd7 | Listas caídas: simit, garantias_mobiliarias, delitos_sexuales, personeriabog, inpec, rut, rut_estado, monteriajepms",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-28 13:31:24.506776 UTC"
+}, {
+  "log_id": "a21b3de8-cd4c-4b1a-95c7-b2ea5efab734",
+  "transaction_id": "9bf48f68-d4f1-41e1-b812-43bf827ed7bf",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6aba6bfeda8d9a1b4e805de2 | Listas caídas: simit, contaduria, personeriabog, inpec, reputacional, rut, rut_estado, monteriajepms",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-28 13:32:00.025403 UTC"
+}, {
+  "log_id": "68c66593-5522-4946-951f-3621f3a07507",
+  "transaction_id": "07a433dd-e2a1-4809-abeb-725c1c762edb",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abacb15e789e834de181225 | Listas caídas: procuraduria, garantias_mobiliarias, registraduria_certificado, interpol, rut, rut_estado",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-28 20:16:41.756526 UTC"
+}, {
+  "log_id": "f76f8a74-fadb-43fb-8934-a62c5f117ad9",
+  "transaction_id": "b7fdd3d2-c702-41c5-b8c1-442a4847bee0",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abaab70ec0b0eb92adbad7a | Listas caídas: procuraduria, garantias_mobiliarias, reputacional, rut, rut_estado, ibaguejepms",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-28 18:01:35.106607 UTC"
+}, {
+  "log_id": "ffdac9ff-2bc6-4eab-9cad-4873cba9820a",
+  "transaction_id": "4b0ccc47-bd3c-4d65-b27d-2ba4f102fb1f",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abaa7a2956df96e4038c792",
+  "response_received": "Revisión Manual - Riesgo Alto",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 17:45:29.622935 UTC"
+}, {
+  "log_id": "251ae7b6-3f0e-427f-9222-f7c7dde8bf06",
+  "transaction_id": "9c1aa4e9-c614-4ac1-82cd-a31f7e487164",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abbfcac0898bb53f8dcd444",
+  "response_received": "Revisión Manual - Riesgo Alto",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-29 18:00:30.386920 UTC"
+}, {
+  "log_id": "6e0eab91-e3d7-4469-bfac-ec916257c064",
+  "transaction_id": "976a1c9e-a58e-4a85-bf2d-97fc72463e09",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1114401919",
+  "response_received": "JobID: 320ead44-d194-48d2-9448-ab762fa7194b",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-29 17:29:20.861021 UTC"
+}, {
+  "log_id": "7be743a8-8529-4ab3-a1af-c963a02e36cc",
+  "transaction_id": "51b2f5c9-a8b1-46c1-8083-c8aa6b94c088",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abaee031c976299c57d6590 | Listas caídas: procuraduria, runt_app, simit, garantias_mobiliarias, registraduria_certificado, delitos_sexuales, personeriabog, reputacional, rut, rut_estado, ibaguejepms",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-28 22:45:39.974532 UTC"
+}, {
+  "log_id": "248d1551-2f84-4274-a96e-c0ee84dc9497",
+  "transaction_id": "2645008b-7281-42fd-b36b-652b37b2c5d9",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abadc6b5035ab48f2b6b784 | Listas caídas: simit, contaduria, garantias_mobiliarias, personeriabog, rut, rut_estado",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-28 21:30:39.398940 UTC"
+}, {
+  "log_id": "483667fa-bfdf-4747-b76e-8c2d396db529",
+  "transaction_id": "df939f7c-d55c-40dc-80c7-14c8795a024a",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abbbdabc8c0a52c753ffffc | Listas caídas: runt_app, simit, reputacional, rama_unificada, rut, rut_estado, monteriajepms",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-29 13:31:37.939403 UTC"
+}, {
+  "log_id": "6b913333-2707-4618-8920-4e590d8724d3",
+  "transaction_id": "82ba84ff-1722-448d-b994-fdc936ac4799",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abbc45fce6fcc2524cacb98 | Listas caídas: simit, delitos_sexuales, personeriabog, reputacional, rut, rut_estado",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-29 14:00:20.190664 UTC"
+}, {
+  "log_id": "8ab29e48-67f4-4e00-8002-1010ce8c091e",
+  "transaction_id": "4c9f5471-a3f0-4e15-91a5-f818205a54f8",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abbbd7cd08046c6e8563ec0 | Listas caídas: simit, delitos_sexuales, reputacional, rama_unificada, rut, rut_estado, monteriajepms",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-29 13:30:50.066385 UTC"
+}, {
+  "log_id": "b5fdbc6d-1145-4acc-a7b6-4bb7bd19dc54",
+  "transaction_id": "08295bf2-7112-4822-a10d-bcca25bf0be9",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abbcf4b27da143fec94fb91 | Listas caídas: procuraduria, reputacional, rut, rut_estado, registraduria_certificado",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-29 14:47:25.174973 UTC"
+}, {
+  "log_id": "00520e50-867a-477b-9db4-e410e0419700",
+  "transaction_id": "287a0c05-9699-4f21-8711-9a62da3675b7",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abbd26d028da18fc7f1e6c9 | Listas caídas: procuraduria, contaduria, delitos_sexuales, reputacional, rut, rut_estado, registraduria_certificado",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-29 15:00:12.456010 UTC"
+}, {
+  "log_id": "2e2cd2af-3b9f-40f4-a885-755f6b56a006",
+  "transaction_id": "1f60e6ca-64ca-49af-8edd-88b1d1b0c528",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abbc7efc31ff20b343d399d | Listas caídas: delitos_sexuales, reputacional, registraduria_certificado, rut, rut_estado",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-29 14:15:26.565359 UTC"
+}, {
+  "log_id": "c02695c9-87c3-4593-81d6-a8abc367733c",
+  "transaction_id": "ef52a256-2036-4fcf-9167-fc010072200b",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abbcf4535a965a8514189fd | Listas caídas: procuraduria, simit, rut, rut_estado, registraduria_certificado",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-29 14:46:54.425800 UTC"
+}, {
+  "log_id": "8602e9ad-1190-45c1-a93e-c3e8ef9da04b",
+  "transaction_id": "baa127f3-3080-4d96-ad56-4430bdf8433a",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abbcf3e3e3efd248b148044 | Listas caídas: policia, procuraduria, simit, delitos_sexuales, personeriabog, reputacional, rut, rut_estado, registraduria_certificado",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-09-29 14:46:37.374949 UTC"
+}, {
+  "log_id": "d138389d-f68b-4318-9a05-c36a2acc957e",
+  "transaction_id": "MISSING_DATA_CANDIDATE_467620",
+  "action_type": "ATS_VALIDATION",
+  "payload_sent": "CC: 29675885 | Date: Vacía",
+  "response_received": "Rechazado por datos incompletos",
+  "status": "ERROR",
+  "timestamp": "2026-09-29 13:29:24.012014 UTC"
+}, {
+  "log_id": "c6ec0c3e-3dfe-4348-a467-254a797dad57",
+  "transaction_id": "50d8b1d8-b308-45fc-a647-8d8345972f40",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abadc6059ffb3b6fee7b0be",
+  "response_received": "Aprobado - Riesgo: info",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 21:30:24.181817 UTC"
+}, {
+  "log_id": "51878aaf-5fdf-437a-8c40-2224d2af5f01",
+  "transaction_id": "db3f610c-ec93-43d6-99d3-250188803d8e",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abbeb0cc1c5a74792d21783",
+  "response_received": "Aprobado - Riesgo: info",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-29 16:45:15.992798 UTC"
+}, {
+  "log_id": "753ba831-1b73-4680-999c-c696cc5ef4a4",
+  "transaction_id": "82ba84ff-1722-448d-b994-fdc936ac4799",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1087122480",
+  "response_received": "JobID: 03a3335d-89ab-4d84-9b89-2a04fcf13f3e",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-29 13:59:27.058857 UTC"
+}, {
+  "log_id": "11ae36d6-b50a-42ca-9548-d12afcff953d",
+  "transaction_id": "baa127f3-3080-4d96-ad56-4430bdf8433a",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1130604743",
+  "response_received": "JobID: 2931f0e3-687b-44ad-9a0e-cd59b51537fa",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-29 14:44:24.095212 UTC"
+}, {
+  "log_id": "98443b4b-091f-4b7c-b4a7-af5e4049b7df",
+  "transaction_id": "2645008b-7281-42fd-b36b-652b37b2c5d9",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1022374142",
+  "response_received": "JobID: 36186a72-b4cf-45ba-aa45-b3a8acf329b3",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 21:29:21.325927 UTC"
+}, {
+  "log_id": "5bb39d2c-a467-470e-a818-986efd88984d",
+  "transaction_id": "ef52a256-2036-4fcf-9167-fc010072200b",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1005974483",
+  "response_received": "JobID: 4f4b1fb1-a4ad-4c67-a92d-6b60aa2020ef",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-29 14:44:30.425342 UTC"
+}, {
+  "log_id": "b92b6f08-b478-446a-8a99-c5bca1faebb7",
+  "transaction_id": "287a0c05-9699-4f21-8711-9a62da3675b7",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1077996916",
+  "response_received": "JobID: 5f5a634c-9ea6-465d-97a2-179939962d87",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-29 14:59:21.521186 UTC"
+}, {
+  "log_id": "60a57e19-ba46-4010-b00a-d247232c2df2",
+  "transaction_id": "7bb74a76-b875-4269-bd0a-073595f67f9f",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1077974989",
+  "response_received": "JobID: 5f5f4a26-2509-4001-8bb3-45a15fe08518",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 21:44:19.924596 UTC"
+}, {
+  "log_id": "553a053e-e40b-4870-aa2e-8be179948ecd",
+  "transaction_id": "5da87649-0dd8-4e67-8c1e-578807acbecc",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1004500125",
+  "response_received": "JobID: 6bfcadb1-6821-4b61-974a-e0ff3af8b8c2",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-29 16:44:42.226418 UTC"
+}, {
+  "log_id": "716469e3-8860-437c-9ed2-84295d8723ae",
+  "transaction_id": "964a1a75-be1e-4bac-9179-f410112d6f59",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1070806345",
+  "response_received": "JobID: 6df3899a-db0c-40c3-ac87-92bd4686fd69",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-29 16:44:34.431475 UTC"
+}, {
+  "log_id": "761b70f6-a31f-48f4-9756-0eaa50d63914",
+  "transaction_id": "1f60e6ca-64ca-49af-8edd-88b1d1b0c528",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 98765561",
+  "response_received": "JobID: a3d715bd-19bd-47e0-962e-fd8f23a213f8",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-29 14:14:27.667915 UTC"
+}, {
+  "log_id": "aae15b99-ad02-4705-88c9-a4ee338f9c84",
+  "transaction_id": "df939f7c-d55c-40dc-80c7-14c8795a024a",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 31713423",
+  "response_received": "JobID: b541227f-0e4a-41b3-a3e3-3332a0b1bd39",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-29 13:29:31.579607 UTC"
+}, {
+  "log_id": "7e06c101-0a06-46f9-9da5-c70cba862cb9",
+  "transaction_id": "50d8b1d8-b308-45fc-a647-8d8345972f40",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1103111085",
+  "response_received": "JobID: bbfc51fc-3322-4990-a34c-fef0e8454333",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 21:29:27.358877 UTC"
+}, {
+  "log_id": "633a5559-650b-4776-a6ec-5be58c078c87",
+  "transaction_id": "4c9f5471-a3f0-4e15-91a5-f818205a54f8",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 24339404",
+  "response_received": "JobID: d2594ad8-4525-487f-a05b-11f8380a1a64",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-29 13:29:40.084481 UTC"
+}, {
+  "log_id": "76a52735-b70f-409f-ad2e-defd5a6b2474",
+  "transaction_id": "08295bf2-7112-4822-a10d-bcca25bf0be9",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1087815853",
+  "response_received": "JobID: e51c714c-1559-4515-b2b2-4795ff8e3180",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-29 14:44:36.262233 UTC"
+}, {
+  "log_id": "43f0bbcd-5d64-41ed-b582-89d7466be1ab",
+  "transaction_id": "db3f610c-ec93-43d6-99d3-250188803d8e",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1004799174",
+  "response_received": "JobID: ea127d89-2fc5-48ec-87f4-083182189f95",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-29 16:44:20.337413 UTC"
+}, {
+  "log_id": "43d200cc-341a-40ec-9dd7-33e60bbfc0a7",
+  "transaction_id": "51b2f5c9-a8b1-46c1-8083-c8aa6b94c088",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1233505745",
+  "response_received": "JobID: f955c96d-987c-4efd-9f41-2259536c92ca",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 22:44:21.303356 UTC"
+}, {
+  "log_id": "8b38a33f-d63e-4699-b44d-37f17a31e233",
+  "transaction_id": "cbed0d2c-b233-463b-bb00-c3c0da8c01d3",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1006963904",
+  "response_received": "JobID: ffe8e16e-0a1b-4471-8d85-95ef62f5d124",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-29 16:44:27.182217 UTC"
+}, {
+  "log_id": "b1c3b62e-15f3-4de1-9130-1b180f2dad5a",
+  "transaction_id": "7bb74a76-b875-4269-bd0a-073595f67f9f",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 6abadfe99976ab0338f898e8",
+  "response_received": "Revisión Manual - Riesgo Medio",
+  "status": "SUCCESS",
+  "timestamp": "2026-09-28 21:45:27.749836 UTC"
+}, {
+  "log_id": "fccea2dc-454d-4d5f-9198-ade8ddf6b3e0",
+  "transaction_id": "REUSED_CANDIDATE_708364",
+  "action_type": "REUSE_PARTIAL_REPORT",
+  "payload_sent": "CC: 24829803",
+  "response_received": "Reporte parcial reutilizado. En espera de listas - Riesgo Preliminar: alto",
+  "status": "WARNING",
+  "timestamp": "2026-09-29 13:29:45.214690 UTC"
+}, {
+  "log_id": "634d1ef4-9b61-460f-aaf5-dc36a709e9b9",
+  "transaction_id": "REUSED_CANDIDATE_708760",
+  "action_type": "REUSE_PARTIAL_REPORT",
+  "payload_sent": "CC: 1087122480",
+  "response_received": "Reporte parcial reutilizado. En espera de listas - Riesgo Preliminar: medio",
+  "status": "WARNING",
+  "timestamp": "2026-09-29 14:44:40.904594 UTC"
+}, {
+  "log_id": "fa8b4b78-514b-4e35-a4ec-19e115a07458",
+  "transaction_id": "MISSING_DATA_CANDIDATE_560110",
+  "action_type": "ATS_VALIDATION",
+  "payload_sent": "CC: 1012451241 | Date: Vacía",
+  "response_received": "Rechazado por datos incompletos",
+  "status": "ERROR",
+  "timestamp": "2026-04-09 16:37:51.360269 UTC"
+}, {
+  "log_id": "d6ce9418-bf7b-4d27-a62f-2e2754f65658",
+  "transaction_id": "1761c0d3-b71f-430d-8df2-a2d86996288e",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d7e42d89fb4a7738b96b54",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-09 17:39:10.217466 UTC"
+}, {
+  "log_id": "3925343f-85f4-4b6d-bae1-d638c5fcb453",
+  "transaction_id": "1f8991ea-fbcd-4265-afde-73bd8ceca5e2",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d7e4353de3c0208ab9cf28",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-09 17:39:26.033518 UTC"
+}, {
+  "log_id": "368246aa-2c41-4d7d-b4eb-90b5a2ebdba6",
+  "transaction_id": "086499ee-09ef-4620-8cdc-9588b829abf7",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d7e0b9509adda2f4c6717c",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-09 17:24:23.619365 UTC"
+}, {
+  "log_id": "423744fa-3cae-4923-9a5d-77af4fde5ddf",
+  "transaction_id": "1761c0d3-b71f-430d-8df2-a2d86996288e",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1126257357",
+  "response_received": "JobID: 3a645d39-2959-4958-be07-deb68240849e",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-09 17:37:54.726242 UTC"
+}, {
+  "log_id": "c139a861-f5bb-4d6b-aaf8-7a1f1f511f99",
+  "transaction_id": "1f8991ea-fbcd-4265-afde-73bd8ceca5e2",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 22118753",
+  "response_received": "JobID: 4ee6e6a9-15f2-44b5-9244-7b8995555a3d",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-09 17:38:02.282888 UTC"
+}, {
+  "log_id": "5e8066e9-ff90-4304-adb4-7f824a0433f0",
+  "transaction_id": "086499ee-09ef-4620-8cdc-9588b829abf7",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1192743381",
+  "response_received": "JobID: c2127365-ea90-4c1e-998b-cd9516a558ae",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-09 17:22:55.139197 UTC"
+}, {
+  "log_id": "66886642-697c-4473-9d26-602cf7d12020",
+  "transaction_id": "79047cd0-56cf-4bd2-9e40-03facbfbdb74",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6b945d8e8c48140bb2c0f | Cedula: 1193126701",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 08:37:56.657694 UTC"
+}, {
+  "log_id": "b88ae4fe-2425-4752-a74a-5e1375d58175",
+  "transaction_id": "454559f1-bb0d-4869-93cf-d40eba73acfa",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6b96fb5611784c7540f50 | Cedula: 52358209",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 08:38:11.058712 UTC"
+}, {
+  "log_id": "92f08ff5-3d7c-4e1a-b500-4cb3a8112153",
+  "transaction_id": "93687af6-014c-4332-9c46-eea1d1b841b4",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6b237257a99ac12ca05ac | Cedula: 1143226839",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 08:08:11.526602 UTC"
+}, {
+  "log_id": "7a81ac05-49d9-493c-9f5c-9257c8e79d31",
+  "transaction_id": "b2651673-a006-4545-8502-55a33cab4250",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6aeb5afb8a2253faf1a12 | Cedula: 1000213883",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 08:07:58.941909 UTC"
+}, {
+  "log_id": "bab8337d-cf41-4667-92ab-56d54e82f70b",
+  "transaction_id": "086499ee-09ef-4620-8cdc-9588b829abf7",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d7e0b9509adda2f4c6717c | Cedula: 1192743381",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 19:37:58.781100 UTC"
+}, {
+  "log_id": "01499593-2503-4d90-9f01-e5b2bd6ad85c",
+  "transaction_id": "086499ee-09ef-4620-8cdc-9588b829abf7",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d7e0b9509adda2f4c6717c | Cedula: 1192743381",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 19:37:57.007625 UTC"
+}, {
+  "log_id": "66228feb-c51a-40a5-8675-81df4367efc5",
+  "transaction_id": "1761c0d3-b71f-430d-8df2-a2d86996288e",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d7e42d89fb4a7738b96b54 | Cedula: 1126257357",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 20:07:57.496290 UTC"
+}, {
+  "log_id": "20e799ce-b9b3-4dda-87d6-1caeefde1fa7",
+  "transaction_id": "1761c0d3-b71f-430d-8df2-a2d86996288e",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d7e42d89fb4a7738b96b54 | Cedula: 1126257357",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 20:07:56.063444 UTC"
+}, {
+  "log_id": "1e519dac-5642-4055-8418-98f9d2a942b9",
+  "transaction_id": "1f8991ea-fbcd-4265-afde-73bd8ceca5e2",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d7e4353de3c0208ab9cf28 | Cedula: 22118753",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 20:08:13.810674 UTC"
+}, {
+  "log_id": "b210b2af-4018-4c11-b12a-6f59d32362a4",
+  "transaction_id": "1f8991ea-fbcd-4265-afde-73bd8ceca5e2",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d7e4353de3c0208ab9cf28 | Cedula: 22118753",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 20:08:10.512160 UTC"
+}, {
+  "log_id": "1ecedd21-ffd4-4e6f-8c80-c7d5879e68a7",
+  "transaction_id": "b824891f-0bac-4025-8e98-42735d6fff3f",
+  "action_type": "WATCHDOG_TIMEOUT",
+  "payload_sent": "Estado atascado: PARTIAL_WAITING_RETRY",
+  "response_received": "Marcado como TIMEOUT. Se cancela el procesamiento y se adjunta reporte parcial en ATS.",
+  "status": "consulta manual",
+  "timestamp": "2026-04-09 21:09:59.746948 UTC"
+}, {
+  "log_id": "a860a9e7-9c4f-49ea-845e-c7bdf4ef91fa",
+  "transaction_id": "5f9dcdf4-d7e2-4120-a148-f5ff45e15f27",
+  "action_type": "WATCHDOG_TIMEOUT",
+  "payload_sent": "Estado atascado: PARTIAL_WAITING_RETRY",
+  "response_received": "Marcado como TIMEOUT. Se cancela el procesamiento y se adjunta reporte parcial en ATS.",
+  "status": "consulta manual",
+  "timestamp": "2026-04-09 21:09:47.112030 UTC"
+}, {
+  "log_id": "e2ca7e60-a99a-432e-81c5-371cce1e3ca7",
+  "transaction_id": "f9391a81-e756-4337-a183-5458480b18d2",
+  "action_type": "WATCHDOG_TIMEOUT",
+  "payload_sent": "Estado atascado: PARTIAL_WAITING_RETRY",
+  "response_received": "Marcado como TIMEOUT. Se cancela el procesamiento y se adjunta reporte parcial en ATS.",
+  "status": "consulta manual",
+  "timestamp": "2026-04-09 21:08:53.445217 UTC"
+}, {
+  "log_id": "57450cdc-0e09-4178-ab7e-d6d4a84df7dc",
+  "transaction_id": "93687af6-014c-4332-9c46-eea1d1b841b4",
+  "action_type": "WATCHDOG_TIMEOUT",
+  "payload_sent": "Estado atascado: PARTIAL_WAITING_RETRY",
+  "response_received": "Marcado como TIMEOUT. Se cancela el procesamiento y se adjunta reporte parcial en ATS.",
+  "status": "consulta manual",
+  "timestamp": "2026-04-09 21:09:34.465352 UTC"
+}, {
+  "log_id": "0937718a-8aef-4bae-a5eb-a181de1cec1a",
+  "transaction_id": "79047cd0-56cf-4bd2-9e40-03facbfbdb74",
+  "action_type": "WATCHDOG_TIMEOUT",
+  "payload_sent": "Estado atascado: PARTIAL_WAITING_RETRY",
+  "response_received": "Marcado como TIMEOUT. Se cancela el procesamiento y se adjunta reporte parcial en ATS.",
+  "status": "consulta manual",
+  "timestamp": "2026-04-09 21:09:21.662611 UTC"
+}, {
+  "log_id": "1b6d362c-63ab-456c-8def-51ddd7be0a63",
+  "transaction_id": "aecc07ea-23e3-483a-b7b3-7d9e1caecf5b",
+  "action_type": "WATCHDOG_TIMEOUT",
+  "payload_sent": "Estado atascado: PARTIAL_WAITING_RETRY",
+  "response_received": "Marcado como TIMEOUT. Se cancela el procesamiento y se adjunta reporte parcial en ATS.",
+  "status": "consulta manual",
+  "timestamp": "2026-04-09 21:09:08.252709 UTC"
+}, {
+  "log_id": "430ca3f5-1883-4b1f-baa7-814009fff7f4",
+  "transaction_id": "454559f1-bb0d-4869-93cf-d40eba73acfa",
+  "action_type": "WATCHDOG_TIMEOUT",
+  "payload_sent": "Estado atascado: PARTIAL_WAITING_RETRY",
+  "response_received": "Marcado como TIMEOUT. Se cancela el procesamiento y se adjunta reporte parcial en ATS.",
+  "status": "consulta manual",
+  "timestamp": "2026-04-09 21:10:15.183116 UTC"
+}, {
+  "log_id": "0015760e-14ac-469e-9c45-1387cc50dd79",
+  "transaction_id": "09c85fd2-83c9-4687-92a3-6fe93be05b6a",
+  "action_type": "WATCHDOG_TIMEOUT",
+  "payload_sent": "Estado atascado: PARTIAL_WAITING_RETRY",
+  "response_received": "Marcado como TIMEOUT. Se cancela el procesamiento y se adjunta reporte parcial en ATS.",
+  "status": "consulta manual",
+  "timestamp": "2026-04-09 21:08:26.656756 UTC"
+}, {
+  "log_id": "b819d287-1d74-4104-a938-8c4fe6690535",
+  "transaction_id": "871b3490-0edc-4778-86df-ccdcff5c51f0",
+  "action_type": "WATCHDOG_TIMEOUT",
+  "payload_sent": "Estado atascado: PARTIAL_WAITING_RETRY",
+  "response_received": "Marcado como TIMEOUT. Se cancela el procesamiento y se adjunta reporte parcial en ATS.",
+  "status": "consulta manual",
+  "timestamp": "2026-04-09 21:08:39.489250 UTC"
+}, {
+  "log_id": "aa775ed6-a141-49b2-aa9f-411b5cc4c51e",
+  "transaction_id": "55af8aee-d5f6-42d0-a5c0-dfd57497b5e1",
+  "action_type": "WATCHDOG_TIMEOUT",
+  "payload_sent": "Estado atascado: PARTIAL_WAITING_RETRY",
+  "response_received": "Marcado como TIMEOUT. Se cancela el procesamiento y se adjunta reporte parcial en ATS.",
+  "status": "consulta manual",
+  "timestamp": "2026-04-09 21:08:06.705746 UTC"
+}, {
+  "log_id": "088fa427-5c3d-4549-94fa-aba118067d67",
+  "transaction_id": "e5c690cc-5f0a-48b3-b89f-d6f2ce0a1268",
+  "action_type": "WATCHDOG_TIMEOUT",
+  "payload_sent": "Estado atascado: PARTIAL_WAITING_RETRY",
+  "response_received": "Marcado como TIMEOUT. Se cancela el procesamiento y se adjunta reporte parcial en ATS.",
+  "status": "consulta manual",
+  "timestamp": "2026-04-09 21:07:51.911389 UTC"
+}, {
+  "log_id": "62c58566-3d55-4d89-91d7-84fc9fd6dfe7",
+  "transaction_id": "e2fc25c3-daa3-406d-9db5-f702fc6b601d",
+  "action_type": "WATCHDOG_TIMEOUT",
+  "payload_sent": "Estado atascado: PARTIAL_WAITING_RETRY",
+  "response_received": "Marcado como TIMEOUT. Se cancela el procesamiento y se adjunta reporte parcial en ATS.",
+  "status": "consulta manual",
+  "timestamp": "2026-04-09 17:08:18.681934 UTC"
+}, {
+  "log_id": "3b70a7f5-b078-492e-ac37-36a6e33eb5cf",
+  "transaction_id": "8742217a-c3ee-43fd-9c8d-865ac2d824f6",
+  "action_type": "WATCHDOG_TIMEOUT",
+  "payload_sent": "Estado atascado: PARTIAL_WAITING_RETRY",
+  "response_received": "Marcado como TIMEOUT. Se cancela el procesamiento y se adjunta reporte parcial en ATS.",
+  "status": "consulta manual",
+  "timestamp": "2026-04-09 17:07:51.182572 UTC"
+}, {
+  "log_id": "184dedb3-8cb6-4679-a93d-59f798f25308",
+  "transaction_id": "46f4da4d-8786-4c56-9288-4638ccfc03c4",
+  "action_type": "WATCHDOG_TIMEOUT",
+  "payload_sent": "Estado atascado: PARTIAL_WAITING_RETRY",
+  "response_received": "Marcado como TIMEOUT. Se cancela el procesamiento y se adjunta reporte parcial en ATS.",
+  "status": "consulta manual",
+  "timestamp": "2026-04-09 17:08:43.995184 UTC"
+}, {
+  "log_id": "f6f6d660-a7ba-4d99-b953-dffc0df4d8a9",
+  "transaction_id": "bd5989fb-6811-4934-b95a-dcec50207800",
+  "action_type": "WATCHDOG_TIMEOUT",
+  "payload_sent": "Estado atascado: PARTIAL_WAITING_RETRY",
+  "response_received": "Marcado como TIMEOUT. Se cancela el procesamiento y se adjunta reporte parcial en ATS.",
+  "status": "consulta manual",
+  "timestamp": "2026-04-09 17:09:18.816330 UTC"
+}, {
+  "log_id": "58fca15b-a35d-427d-bf17-8777382ace6f",
+  "transaction_id": "6dbe1656-31ef-403a-8ef8-d09673fe0c47",
+  "action_type": "WATCHDOG_TIMEOUT",
+  "payload_sent": "Estado atascado: PARTIAL_WAITING_RETRY",
+  "response_received": "Marcado como TIMEOUT. Se cancela el procesamiento y se adjunta reporte parcial en ATS.",
+  "status": "consulta manual",
+  "timestamp": "2026-04-09 17:08:30.898930 UTC"
+}, {
+  "log_id": "756aa630-1ffe-49b9-9e96-492fa3445f54",
+  "transaction_id": "c4195ef4-b02c-4456-8d06-0851fb305f47",
+  "action_type": "WATCHDOG_TIMEOUT",
+  "payload_sent": "Estado atascado: PARTIAL_WAITING_RETRY",
+  "response_received": "Marcado como TIMEOUT. Se cancela el procesamiento y se adjunta reporte parcial en ATS.",
+  "status": "consulta manual",
+  "timestamp": "2026-04-09 17:08:57.321428 UTC"
+}, {
+  "log_id": "94e06bcb-b619-4d5a-9594-ac327867b801",
+  "transaction_id": "66959a14-2d13-4af0-97cf-ecc583225c41",
+  "action_type": "WATCHDOG_TIMEOUT",
+  "payload_sent": "Estado atascado: PARTIAL_WAITING_RETRY",
+  "response_received": "Marcado como TIMEOUT. Se cancela el procesamiento y se adjunta reporte parcial en ATS.",
+  "status": "consulta manual",
+  "timestamp": "2026-04-09 17:08:04.737726 UTC"
+}, {
+  "log_id": "8856a8f3-5b35-4d12-8ab1-eba3909a22c4",
+  "transaction_id": "36ee2bb1-b43e-4196-ba29-f8a8527e6683",
+  "action_type": "WATCHDOG_TIMEOUT",
+  "payload_sent": "Estado atascado: PARTIAL_WAITING_RETRY",
+  "response_received": "Marcado como TIMEOUT. Se cancela el procesamiento y se adjunta reporte parcial en ATS.",
+  "status": "consulta manual",
+  "timestamp": "2026-04-09 17:09:31.497432 UTC"
+}, {
+  "log_id": "10e50845-44c2-4b3c-9ac5-ea3144bf06a6",
+  "transaction_id": "09c85fd2-83c9-4687-92a3-6fe93be05b6a",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d69d3a73852694494ae123 | Cedula: 1022961155",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 06:38:44.839812 UTC"
+}, {
+  "log_id": "30d16eb2-2707-4acb-80b2-10ebf8c99dcb",
+  "transaction_id": "09c85fd2-83c9-4687-92a3-6fe93be05b6a",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d69d3a73852694494ae123 | Cedula: 1022961155",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 22:38:33.673302 UTC"
+}, {
+  "log_id": "d7363915-62b5-4eca-bd7f-c4dfd2cac453",
+  "transaction_id": "36ee2bb1-b43e-4196-ba29-f8a8527e6683",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d65392b6aca89e306da9f8 | Cedula: 8568578",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 01:38:46.989891 UTC"
+}, {
+  "log_id": "5ec013f2-fbad-4a2e-8ac6-f6b43b3a151a",
+  "transaction_id": "454559f1-bb0d-4869-93cf-d40eba73acfa",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6b96fb5611784c7540f50 | Cedula: 52358209",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 22:38:11.717978 UTC"
+}, {
+  "log_id": "45db119a-7abb-4e3a-855a-b9fbe3a1e27c",
+  "transaction_id": "454559f1-bb0d-4869-93cf-d40eba73acfa",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6b96fb5611784c7540f50 | Cedula: 52358209",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 22:38:59.145189 UTC"
+}, {
+  "log_id": "1e2a817b-509b-4158-9d8b-bc527729db8c",
+  "transaction_id": "454559f1-bb0d-4869-93cf-d40eba73acfa",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6b96fb5611784c7540f50 | Cedula: 52358209",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 00:38:05.834988 UTC"
+}, {
+  "log_id": "fae38ea4-1003-4d2a-9b97-3311bb376bbb",
+  "transaction_id": "46f4da4d-8786-4c56-9288-4638ccfc03c4",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d653a267489ab6f82b1e77 | Cedula: 1007367720",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 01:37:58.081211 UTC"
+}, {
+  "log_id": "ee116820-5e5e-4833-88f5-a8a7efa851ab",
+  "transaction_id": "55af8aee-d5f6-42d0-a5c0-dfd57497b5e1",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6a0a5855952c401e484dc | Cedula: 1092357419",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 07:08:10.827562 UTC"
+}, {
+  "log_id": "326f6fce-fdee-4fe6-95c4-6ba6ff69d29a",
+  "transaction_id": "55af8aee-d5f6-42d0-a5c0-dfd57497b5e1",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6a0a5855952c401e484dc | Cedula: 1092357419",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 23:08:09.808802 UTC"
+}, {
+  "log_id": "e4846034-84e9-44fb-8a1f-d75ad21ea9b6",
+  "transaction_id": "5f9dcdf4-d7e2-4120-a148-f5ff45e15f27",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d699db310519e50ecce82b | Cedula: 1012389684",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 22:38:06.995488 UTC"
+}, {
+  "log_id": "67ee40bd-2f71-4a1f-9170-fe8ebf0c6800",
+  "transaction_id": "5f9dcdf4-d7e2-4120-a148-f5ff45e15f27",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d699db310519e50ecce82b | Cedula: 1012389684",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 06:38:17.747586 UTC"
+}, {
+  "log_id": "a9909d01-a609-4704-bbea-494f03f635e3",
+  "transaction_id": "66959a14-2d13-4af0-97cf-ecc583225c41",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d673002450b57a27a531bf | Cedula: 1066572936",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 03:38:18.625304 UTC"
+}, {
+  "log_id": "288932bd-d191-4f99-8194-7add1947c657",
+  "transaction_id": "6dbe1656-31ef-403a-8ef8-d09673fe0c47",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d653820cce201dd5dfead3 | Cedula: 18607927",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 01:38:23.393321 UTC"
+}, {
+  "log_id": "211d2fdd-7fed-4fb1-b1ed-9c37386ddd33",
+  "transaction_id": "79047cd0-56cf-4bd2-9e40-03facbfbdb74",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6b945d8e8c48140bb2c0f | Cedula: 1193126701",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 22:37:56.215912 UTC"
+}, {
+  "log_id": "15b6baed-a0e6-4015-8a57-b364be7b3f85",
+  "transaction_id": "79047cd0-56cf-4bd2-9e40-03facbfbdb74",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6b945d8e8c48140bb2c0f | Cedula: 1193126701",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 22:38:45.835297 UTC"
+}, {
+  "log_id": "31f6997e-16ad-4b70-928c-70751f715e45",
+  "transaction_id": "79047cd0-56cf-4bd2-9e40-03facbfbdb74",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6b945d8e8c48140bb2c0f | Cedula: 1193126701",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 00:37:53.798410 UTC"
+}, {
+  "log_id": "c2b0f6e9-1990-4bf6-8dad-66da4c1948a0",
+  "transaction_id": "871b3490-0edc-4778-86df-ccdcff5c51f0",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d69610a9828bc2d9a11b93 | Cedula: 1056612922",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 22:08:16.268158 UTC"
+}, {
+  "log_id": "70930e83-d376-4f2e-a6f6-a96ebf4fe54c",
+  "transaction_id": "871b3490-0edc-4778-86df-ccdcff5c51f0",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d69610a9828bc2d9a11b93 | Cedula: 1056612922",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 06:07:54.743087 UTC"
+}, {
+  "log_id": "d1216d2a-679f-450a-a4ac-fc18cb813bfc",
+  "transaction_id": "8742217a-c3ee-43fd-9c8d-865ac2d824f6",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d65372c3f647ca51bbe1b9 | Cedula: 1047412753",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 01:38:12.517732 UTC"
+}, {
+  "log_id": "a0a58a8e-1c8b-49a0-8f58-0a9c78ffdca5",
+  "transaction_id": "93687af6-014c-4332-9c46-eea1d1b841b4",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6b237257a99ac12ca05ac | Cedula: 1143226839",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 22:08:13.164295 UTC"
+}, {
+  "log_id": "57038cfe-c274-4d5c-ba37-d404268d24d3",
+  "transaction_id": "93687af6-014c-4332-9c46-eea1d1b841b4",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6b237257a99ac12ca05ac | Cedula: 1143226839",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 22:08:29.898597 UTC"
+}, {
+  "log_id": "41bdd780-85b1-48fc-876a-4b241a9f03da",
+  "transaction_id": "93687af6-014c-4332-9c46-eea1d1b841b4",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6b237257a99ac12ca05ac | Cedula: 1143226839",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 00:08:09.213892 UTC"
+}, {
+  "log_id": "95f1c36d-d2e1-423c-a9a0-dca0eb077d03",
+  "transaction_id": "aecc07ea-23e3-483a-b7b3-7d9e1caecf5b",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d699a2118da135897ee2f6 | Cedula: 98432280",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 06:38:57.048328 UTC"
+}, {
+  "log_id": "e5ace482-2b7d-4a0a-8fcb-9f929b3ec54b",
+  "transaction_id": "aecc07ea-23e3-483a-b7b3-7d9e1caecf5b",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d699a2118da135897ee2f6 | Cedula: 98432280",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 22:39:13.602045 UTC"
+}, {
+  "log_id": "36e18c29-38be-4b74-be09-c06541da549c",
+  "transaction_id": "b2651673-a006-4545-8502-55a33cab4250",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6aeb5afb8a2253faf1a12 | Cedula: 1000213883",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 22:07:57.400818 UTC"
+}, {
+  "log_id": "d4058be7-b029-4d65-b0a9-19e33a073b4b",
+  "transaction_id": "b2651673-a006-4545-8502-55a33cab4250",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6aeb5afb8a2253faf1a12 | Cedula: 1000213883",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 22:07:59.442771 UTC"
+}, {
+  "log_id": "d9d6bed2-4275-4105-a048-e956ee502a96",
+  "transaction_id": "b2651673-a006-4545-8502-55a33cab4250",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6aeb5afb8a2253faf1a12 | Cedula: 1000213883",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 00:07:55.636693 UTC"
+}, {
+  "log_id": "d3596c98-180f-4bd3-bc4f-b0628355ad03",
+  "transaction_id": "b824891f-0bac-4025-8e98-42735d6fff3f",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6a46835e79136d5e0c6a1 | Cedula: 1030564646",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 21:07:57.351168 UTC"
+}, {
+  "log_id": "361a0a07-aa98-4d10-9d6e-e048ad7ff3ce",
+  "transaction_id": "b824891f-0bac-4025-8e98-42735d6fff3f",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6a46835e79136d5e0c6a1 | Cedula: 1030564646",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 21:08:00.045894 UTC"
+}, {
+  "log_id": "2b91543c-cf10-4902-9edf-a435d809922d",
+  "transaction_id": "b824891f-0bac-4025-8e98-42735d6fff3f",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6a46835e79136d5e0c6a1 | Cedula: 1030564646",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 07:07:56.843245 UTC"
+}, {
+  "log_id": "e3359677-a440-482e-9cb4-1fc6d0d4c9c8",
+  "transaction_id": "b824891f-0bac-4025-8e98-42735d6fff3f",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6a46835e79136d5e0c6a1 | Cedula: 1030564646",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 23:07:58.536658 UTC"
+}, {
+  "log_id": "3cfd716f-8554-412f-bdc8-9a311c70bead",
+  "transaction_id": "bd5989fb-6811-4934-b95a-dcec50207800",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d67300f6dd63de3d4d93b8 | Cedula: 1023904854",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 03:38:06.366933 UTC"
+}, {
+  "log_id": "0328991a-106e-4959-8a6c-fde5c45ffad4",
+  "transaction_id": "c4195ef4-b02c-4456-8d06-0851fb305f47",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d673103ab8e5ac4380f2fa | Cedula: 1017156500",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 03:37:55.524462 UTC"
+}, {
+  "log_id": "9d807387-409f-4779-847a-ceacc784075a",
+  "transaction_id": "e2fc25c3-daa3-406d-9db5-f702fc6b601d",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6537acb3fe9b6e579aa2a | Cedula: 79789221",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 01:38:35.783343 UTC"
+}, {
+  "log_id": "b1d658da-8379-41fd-b81b-6c1a80e76836",
+  "transaction_id": "e5c690cc-5f0a-48b3-b89f-d6f2ce0a1268",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d69d2bd6377fca068d1a9b | Cedula: 1007603445",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 22:37:54.185555 UTC"
+}, {
+  "log_id": "24f038a2-4717-4d8e-b2a2-bfebf4984059",
+  "transaction_id": "e5c690cc-5f0a-48b3-b89f-d6f2ce0a1268",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d69d2bd6377fca068d1a9b | Cedula: 1007603445",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 06:38:00.273673 UTC"
+}, {
+  "log_id": "93b4672d-2963-4970-b2ca-19a0e1375826",
+  "transaction_id": "f9391a81-e756-4337-a183-5458480b18d2",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d699ac935605f1ec9388b8 | Cedula: 1019019717",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 06:38:29.569956 UTC"
+}, {
+  "log_id": "75903a25-bf64-4eaf-91ae-933f8e5d1ed7",
+  "transaction_id": "f9391a81-e756-4337-a183-5458480b18d2",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d699ac935605f1ec9388b8 | Cedula: 1019019717",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 22:38:19.539835 UTC"
+}, {
+  "log_id": "d91eb334-671c-419f-a5fe-85fbe0cd9f24",
+  "transaction_id": "871b3490-0edc-4778-86df-ccdcff5c51f0",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1056612922",
+  "response_received": "JobID: 47f981a4-4a37-41f4-8251-2b07d7cf5b36",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-08 17:52:52.123825 UTC"
+}, {
+  "log_id": "69c913c5-a8e9-4882-8820-00c2b617fbd1",
+  "transaction_id": "66959a14-2d13-4af0-97cf-ecc583225c41",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1066572936",
+  "response_received": "JobID: 71eda4e9-d8e7-4473-8dcf-04b63782da54",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-08 15:23:13.055377 UTC"
+}, {
+  "log_id": "01964c93-5c8e-4f21-a93e-1f13c8f5b1d1",
+  "transaction_id": "bd5989fb-6811-4934-b95a-dcec50207800",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1023904854",
+  "response_received": "JobID: 2dec5bef-5410-44ce-9ffc-5dda6b7fd0b7",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-08 15:22:56.817674 UTC"
+}, {
+  "log_id": "1605db2e-7c49-46d8-b775-3361e266013d",
+  "transaction_id": "c4195ef4-b02c-4456-8d06-0851fb305f47",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1017156500",
+  "response_received": "JobID: 4e1caefc-9597-42c6-861a-3a49182dcff1",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-08 15:23:05.363873 UTC"
+}, {
+  "log_id": "5ae80a10-40ae-4d55-99cf-495f2d6c0134",
+  "transaction_id": "46f4da4d-8786-4c56-9288-4638ccfc03c4",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1007367720",
+  "response_received": "JobID: 31238aa2-6159-4609-b576-82f424263b2a",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-08 13:08:16.546057 UTC"
+}, {
+  "log_id": "1d0e4ea7-9472-40ad-b393-6198382321f8",
+  "transaction_id": "6dbe1656-31ef-403a-8ef8-d09673fe0c47",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 18607927",
+  "response_received": "JobID: 63cd22af-2f9d-4c38-8c3b-e10f819df05f",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-08 13:08:08.093717 UTC"
+}, {
+  "log_id": "24f0a71d-62f6-42b8-9762-7896a683221e",
+  "transaction_id": "8742217a-c3ee-43fd-9c8d-865ac2d824f6",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1047412753",
+  "response_received": "JobID: c742f89c-250f-41e0-9b12-e650348216ce",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-08 13:07:52.415900 UTC"
+}, {
+  "log_id": "9ca6178a-7331-4852-af3f-ae0fafafc479",
+  "transaction_id": "e2fc25c3-daa3-406d-9db5-f702fc6b601d",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 79789221",
+  "response_received": "JobID: b08e70c5-e764-492a-a720-2acaa404e4e6",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-08 13:08:00.181474 UTC"
+}, {
+  "log_id": "974e1de4-bb07-46ea-83a3-ab771f5459cc",
+  "transaction_id": "36ee2bb1-b43e-4196-ba29-f8a8527e6683",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 8568578",
+  "response_received": "JobID: 6ee3388d-aab0-4e7c-b7f2-dc6ca84b29df",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-08 13:08:24.015533 UTC"
+}, {
+  "log_id": "a641c892-6ec8-4300-9f2e-91cf87359d45",
+  "transaction_id": "36ee2bb1-b43e-4196-ba29-f8a8527e6683",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d65392b6aca89e306da9f8 | Cedula: 8568578",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 15:38:54.666398 UTC"
+}, {
+  "log_id": "3dbece2b-8e33-49a1-b19b-e860835ea11b",
+  "transaction_id": "36ee2bb1-b43e-4196-ba29-f8a8527e6683",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d65392b6aca89e306da9f8 | Cedula: 8568578",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 15:38:53.050392 UTC"
+}, {
+  "log_id": "85d39c69-ac21-45d9-9fae-e1afda25f54c",
+  "transaction_id": "6dbe1656-31ef-403a-8ef8-d09673fe0c47",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d653820cce201dd5dfead3 | Cedula: 18607927",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 15:38:25.401902 UTC"
+}, {
+  "log_id": "33b764eb-de11-4c9a-8a55-451c48be0cf4",
+  "transaction_id": "6dbe1656-31ef-403a-8ef8-d09673fe0c47",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d653820cce201dd5dfead3 | Cedula: 18607927",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 15:38:23.291290 UTC"
+}, {
+  "log_id": "869accec-8620-4050-a025-8520677e0fd4",
+  "transaction_id": "8742217a-c3ee-43fd-9c8d-865ac2d824f6",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d65372c3f647ca51bbe1b9 | Cedula: 1047412753",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 15:38:11.636968 UTC"
+}, {
+  "log_id": "e04a9d99-5c56-4111-bd20-68c2815482da",
+  "transaction_id": "8742217a-c3ee-43fd-9c8d-865ac2d824f6",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d65372c3f647ca51bbe1b9 | Cedula: 1047412753",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 15:38:09.830259 UTC"
+}, {
+  "log_id": "28b8855f-7cda-4022-b7be-b1f9b155ad2b",
+  "transaction_id": "e2fc25c3-daa3-406d-9db5-f702fc6b601d",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6537acb3fe9b6e579aa2a | Cedula: 79789221",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 15:38:37.632050 UTC"
+}, {
+  "log_id": "e26a1f9e-51cf-4f38-ba81-30317930eac4",
+  "transaction_id": "e2fc25c3-daa3-406d-9db5-f702fc6b601d",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6537acb3fe9b6e579aa2a | Cedula: 79789221",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 15:38:39.722546 UTC"
+}, {
+  "log_id": "9a37c7ad-c44d-4690-92c1-78fd3b2e7797",
+  "transaction_id": "8742217a-c3ee-43fd-9c8d-865ac2d824f6",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d65372c3f647ca51bbe1b9 | Cedula: 1047412753",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 17:38:38.930703 UTC"
+}, {
+  "log_id": "de076b19-5ecc-4ae4-9142-d819d42993fe",
+  "transaction_id": "e2fc25c3-daa3-406d-9db5-f702fc6b601d",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6537acb3fe9b6e579aa2a | Cedula: 79789221",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 17:39:19.633332 UTC"
+}, {
+  "log_id": "b1cfd020-aede-4fe9-8f01-4c08d23c19d4",
+  "transaction_id": "6dbe1656-31ef-403a-8ef8-d09673fe0c47",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d653820cce201dd5dfead3 | Cedula: 18607927",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 17:39:04.977826 UTC"
+}, {
+  "log_id": "3392df2a-8c87-4956-b8e5-5265d91364a4",
+  "transaction_id": "36ee2bb1-b43e-4196-ba29-f8a8527e6683",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d65392b6aca89e306da9f8 | Cedula: 8568578",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 17:39:32.302491 UTC"
+}, {
+  "log_id": "07f1a739-9fe5-43b7-90a4-b28f4d64c01b",
+  "transaction_id": "46f4da4d-8786-4c56-9288-4638ccfc03c4",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d653a267489ab6f82b1e77 | Cedula: 1007367720",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 17:37:58.674485 UTC"
+}, {
+  "log_id": "3b0e8281-e7c7-49f5-9fe2-9f58c27fb9ed",
+  "transaction_id": "66959a14-2d13-4af0-97cf-ecc583225c41",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d673002450b57a27a531bf | Cedula: 1066572936",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 17:38:26.864159 UTC"
+}, {
+  "log_id": "9e199cc4-3e3a-4fcb-888e-7d0b7bf3ae90",
+  "transaction_id": "66959a14-2d13-4af0-97cf-ecc583225c41",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d673002450b57a27a531bf | Cedula: 1066572936",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 17:38:52.074093 UTC"
+}, {
+  "log_id": "28e68992-bb1c-4df2-8866-de3b1d823f57",
+  "transaction_id": "bd5989fb-6811-4934-b95a-dcec50207800",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d67300f6dd63de3d4d93b8 | Cedula: 1023904854",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 17:38:12.181190 UTC"
+}, {
+  "log_id": "19d87e47-234d-4324-9f64-8c4aae8c8565",
+  "transaction_id": "bd5989fb-6811-4934-b95a-dcec50207800",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d67300f6dd63de3d4d93b8 | Cedula: 1023904854",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 17:38:25.336318 UTC"
+}, {
+  "log_id": "2e3bd70d-11f2-4425-8bc8-b1bfc252112c",
+  "transaction_id": "c4195ef4-b02c-4456-8d06-0851fb305f47",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d673103ab8e5ac4380f2fa | Cedula: 1017156500",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 17:37:58.981196 UTC"
+}, {
+  "log_id": "db1adbf2-1435-4ea3-a1f2-a3dd8690560a",
+  "transaction_id": "c4195ef4-b02c-4456-8d06-0851fb305f47",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d673103ab8e5ac4380f2fa | Cedula: 1017156500",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 17:38:11.994603 UTC"
+}, {
+  "log_id": "265062a2-abcf-4678-a30e-abb95c75aa55",
+  "transaction_id": "46f4da4d-8786-4c56-9288-4638ccfc03c4",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d653a267489ab6f82b1e77 | Cedula: 1007367720",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 15:37:57.808120 UTC"
+}, {
+  "log_id": "b108526d-9f10-452d-8662-1dbae6d7f9ed",
+  "transaction_id": "46f4da4d-8786-4c56-9288-4638ccfc03c4",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d653a267489ab6f82b1e77 | Cedula: 1007367720",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 15:37:55.664377 UTC"
+}, {
+  "log_id": "23885ff3-5a87-47f7-acf1-6830931f05ab",
+  "transaction_id": "46f4da4d-8786-4c56-9288-4638ccfc03c4",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d653a267489ab6f82b1e77",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-08 13:10:35.410088 UTC"
+}, {
+  "log_id": "b35867ce-fa72-4604-9535-f5ddf8ba5a75",
+  "transaction_id": "36ee2bb1-b43e-4196-ba29-f8a8527e6683",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d65392b6aca89e306da9f8",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-08 13:10:18.283843 UTC"
+}, {
+  "log_id": "c777220d-33d4-49f2-a98f-ad038da82493",
+  "transaction_id": "6dbe1656-31ef-403a-8ef8-d09673fe0c47",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d653820cce201dd5dfead3",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-08 13:10:00.245848 UTC"
+}, {
+  "log_id": "b1f3f1a0-9b7f-4468-bb70-b82d107bb0cd",
+  "transaction_id": "8742217a-c3ee-43fd-9c8d-865ac2d824f6",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d65372c3f647ca51bbe1b9",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-08 13:09:24.447712 UTC"
+}, {
+  "log_id": "8b8ca340-cb65-4794-a8cb-ed4d3bffeae5",
+  "transaction_id": "e2fc25c3-daa3-406d-9db5-f702fc6b601d",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d6537acb3fe9b6e579aa2a",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-08 13:09:40.945277 UTC"
+}, {
+  "log_id": "190d7f1b-d9d1-4305-9604-12b9193213f9",
+  "transaction_id": "66959a14-2d13-4af0-97cf-ecc583225c41",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d673002450b57a27a531bf",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-08 15:24:17.137880 UTC"
+}, {
+  "log_id": "73010e1b-726c-4ce9-8831-6f581998a224",
+  "transaction_id": "bd5989fb-6811-4934-b95a-dcec50207800",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d67300f6dd63de3d4d93b8",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-08 15:24:01.031829 UTC"
+}, {
+  "log_id": "5f3a63d2-b616-4564-9c56-3d185de6c2ce",
+  "transaction_id": "c4195ef4-b02c-4456-8d06-0851fb305f47",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d673103ab8e5ac4380f2fa",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-08 15:24:35.900245 UTC"
+}, {
+  "log_id": "ed6026d3-8412-4140-b880-362c33dc9fde",
+  "transaction_id": "55af8aee-d5f6-42d0-a5c0-dfd57497b5e1",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d6a0a5855952c401e484dc",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-08 18:38:49.460416 UTC"
+}, {
+  "log_id": "44cbc75c-e21d-4e05-ae99-d7a6ee26bbb7",
+  "transaction_id": "e5c690cc-5f0a-48b3-b89f-d6f2ce0a1268",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d69d2bd6377fca068d1a9b",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-08 18:23:56.006158 UTC"
+}, {
+  "log_id": "fd039b0d-5f4c-49e0-9bc8-f412674854df",
+  "transaction_id": "09c85fd2-83c9-4687-92a3-6fe93be05b6a",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d69d3a73852694494ae123",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-08 18:24:12.839359 UTC"
+}, {
+  "log_id": "31bd2147-a7a7-420d-8089-aa4a7cc9b965",
+  "transaction_id": "aecc07ea-23e3-483a-b7b3-7d9e1caecf5b",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d699a2118da135897ee2f6",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-08 18:08:51.642556 UTC"
+}, {
+  "log_id": "6fe1203e-12f3-493c-980b-1a6165fa9e7a",
+  "transaction_id": "871b3490-0edc-4778-86df-ccdcff5c51f0",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d69610a9828bc2d9a11b93",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-08 17:53:35.362119 UTC"
+}, {
+  "log_id": "e375249a-f022-452b-a5b9-fa922c3b3fc4",
+  "transaction_id": "f9391a81-e756-4337-a183-5458480b18d2",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d699ac935605f1ec9388b8",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-08 18:09:07.309436 UTC"
+}, {
+  "log_id": "a26b704f-0177-4c61-a82b-800deabcf724",
+  "transaction_id": "5f9dcdf4-d7e2-4120-a148-f5ff45e15f27",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d699db310519e50ecce82b",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-08 18:09:48.274723 UTC"
+}, {
+  "log_id": "af82650d-92c0-4f9b-a4ee-457986c2ba9c",
+  "transaction_id": "93687af6-014c-4332-9c46-eea1d1b841b4",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d6b237257a99ac12ca05ac",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-08 19:53:47.013062 UTC"
+}, {
+  "log_id": "fa680506-58cc-43eb-8f66-3ea57ccf85b9",
+  "transaction_id": "79047cd0-56cf-4bd2-9e40-03facbfbdb74",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d6b945d8e8c48140bb2c0f",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-08 20:23:50.959864 UTC"
+}, {
+  "log_id": "c82d6575-ee4a-4c26-948c-e904ab30bf2d",
+  "transaction_id": "454559f1-bb0d-4869-93cf-d40eba73acfa",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d6b96fb5611784c7540f50",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-08 20:24:43.903576 UTC"
+}, {
+  "log_id": "e42c7d91-731f-454e-a47d-a6fa766eb144",
+  "transaction_id": "b824891f-0bac-4025-8e98-42735d6fff3f",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d6a46835e79136d5e0c6a1",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-08 18:54:47.644526 UTC"
+}, {
+  "log_id": "a8395236-578d-4edc-912c-63918681cd92",
+  "transaction_id": "b2651673-a006-4545-8502-55a33cab4250",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d6aeb5afb8a2253faf1a12",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-08 19:38:43.453594 UTC"
+}, {
+  "log_id": "6da3ba96-df79-49f3-99d9-d3e1e2d7ec09",
+  "transaction_id": "b824891f-0bac-4025-8e98-42735d6fff3f",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1030564646",
+  "response_received": "JobID: 01ae23bc-e2f8-4f59-aa68-d1476a4a340c",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-08 18:52:54.977728 UTC"
+}, {
+  "log_id": "f8f2ba96-b580-4629-b851-b989133824ce",
+  "transaction_id": "55af8aee-d5f6-42d0-a5c0-dfd57497b5e1",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1092357419",
+  "response_received": "JobID: 12e63b69-4124-4558-8ccd-509a2895eb32",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-08 18:37:52.555440 UTC"
+}, {
+  "log_id": "97f28f9d-1aad-4acb-bba8-5e474e0404c2",
+  "transaction_id": "e5c690cc-5f0a-48b3-b89f-d6f2ce0a1268",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1007603445",
+  "response_received": "JobID: 8bda965d-e24b-46fb-9eb6-c0bdefb66d68",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-08 18:23:04.645506 UTC"
+}, {
+  "log_id": "7a80c9ad-8989-4e9c-8d64-344ea369b998",
+  "transaction_id": "f9391a81-e756-4337-a183-5458480b18d2",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1019019717",
+  "response_received": "JobID: 260bf262-eb0d-4b7b-9f8c-bc6b1d110580",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-08 18:07:59.291892 UTC"
+}, {
+  "log_id": "a005633d-c1cd-445c-a2ae-c66c5d831eaa",
+  "transaction_id": "09c85fd2-83c9-4687-92a3-6fe93be05b6a",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1022961155",
+  "response_received": "JobID: dc2e0e7a-1777-4760-835e-6887f3a76571",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-08 18:23:12.084920 UTC"
+}, {
+  "log_id": "a6562a99-6b5e-49fb-bcb8-795e694e993b",
+  "transaction_id": "aecc07ea-23e3-483a-b7b3-7d9e1caecf5b",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 98432280",
+  "response_received": "JobID: 17b3d17a-1467-465b-9054-6fc1b7b8d392",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-08 18:08:06.711364 UTC"
+}, {
+  "log_id": "76179324-f4c0-4a10-affa-6e50fb6ede64",
+  "transaction_id": "5f9dcdf4-d7e2-4120-a148-f5ff45e15f27",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1012389684",
+  "response_received": "JobID: fb5ee638-9cdf-4d6e-88c6-1b54e6fc6256",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-08 18:07:51.824968 UTC"
+}, {
+  "log_id": "7b2b09fd-85ff-4c32-a263-0a98408e3414",
+  "transaction_id": "f5b40284-3113-4105-b60b-2b6282a3bd47",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: No",
+  "response_received": "JobID: ",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-08 18:22:54.487042 UTC"
+}, {
+  "log_id": "e6314f65-72b6-40da-9741-4a1a08c54987",
+  "transaction_id": "79047cd0-56cf-4bd2-9e40-03facbfbdb74",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1193126701",
+  "response_received": "JobID: 3e1cddb8-5ff9-44c6-9338-181809a87ddf",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-08 20:22:58.901459 UTC"
+}, {
+  "log_id": "62cd632c-aa15-4230-be5b-b92282d70848",
+  "transaction_id": "454559f1-bb0d-4869-93cf-d40eba73acfa",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 52358209",
+  "response_received": "JobID: e987d380-94c6-4dc1-b0b0-19a66d23862e",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-08 20:22:51.303758 UTC"
+}, {
+  "log_id": "b8924b83-fa82-4971-a18d-99f0c54f466f",
+  "transaction_id": "93687af6-014c-4332-9c46-eea1d1b841b4",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1143226839",
+  "response_received": "JobID: 8df9c615-5881-4464-bedf-2e72df8b14ca",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-08 19:52:48.273159 UTC"
+}, {
+  "log_id": "bde482fb-fb23-4a29-ac90-7830072fe303",
+  "transaction_id": "b2651673-a006-4545-8502-55a33cab4250",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1000213883",
+  "response_received": "JobID: b81051d4-f23c-4c4a-a6ff-03b588a18f4a",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-08 19:37:50.156330 UTC"
+}, {
+  "log_id": "a71d7691-ea96-4bfe-bea3-5838ad3bf316",
+  "transaction_id": "09c85fd2-83c9-4687-92a3-6fe93be05b6a",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d69d3a73852694494ae123 | Cedula: 1022961155",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 20:38:39.757350 UTC"
+}, {
+  "log_id": "766be58b-a0fa-4364-bb0a-702c8e0161e1",
+  "transaction_id": "09c85fd2-83c9-4687-92a3-6fe93be05b6a",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d69d3a73852694494ae123 | Cedula: 1022961155",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 20:38:46.956087 UTC"
+}, {
+  "log_id": "55065244-d909-4429-ba94-21adcbd8020a",
+  "transaction_id": "55af8aee-d5f6-42d0-a5c0-dfd57497b5e1",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d6a0a5855952c401e484dc | Cedula: 1092357419",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 20:38:54.851050 UTC"
+}, {
+  "log_id": "e49cf72e-c4b1-446f-8bcf-5a34a5c60957",
+  "transaction_id": "5f9dcdf4-d7e2-4120-a148-f5ff45e15f27",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d699db310519e50ecce82b | Cedula: 1012389684",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 20:38:21.241621 UTC"
+}, {
+  "log_id": "d7ee9810-4b74-4ad9-bf62-e1bf0107b25f",
+  "transaction_id": "aecc07ea-23e3-483a-b7b3-7d9e1caecf5b",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d699a2118da135897ee2f6 | Cedula: 98432280",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 20:38:59.929730 UTC"
+}, {
+  "log_id": "09d76479-7636-4b10-a8b9-42b995f8ad7f",
+  "transaction_id": "aecc07ea-23e3-483a-b7b3-7d9e1caecf5b",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d699a2118da135897ee2f6 | Cedula: 98432280",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 20:39:09.613063 UTC"
+}, {
+  "log_id": "b69c8f95-0c24-4ab5-895a-073a3b289c44",
+  "transaction_id": "f9391a81-e756-4337-a183-5458480b18d2",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d699ac935605f1ec9388b8 | Cedula: 1019019717",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 20:38:33.086314 UTC"
+}, {
+  "log_id": "933696e0-55e2-4489-a535-a5d33112c1b5",
+  "transaction_id": "f9391a81-e756-4337-a183-5458480b18d2",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d699ac935605f1ec9388b8 | Cedula: 1019019717",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 20:38:24.628943 UTC"
+}, {
+  "log_id": "652fcb01-4d03-4adb-92f1-ab6bb2a1f1c4",
+  "transaction_id": "871b3490-0edc-4778-86df-ccdcff5c51f0",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d69610a9828bc2d9a11b93 | Cedula: 1056612922",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 20:08:28.293508 UTC"
+}, {
+  "log_id": "e8d9983f-13cb-491f-961c-0ea43db5e4a7",
+  "transaction_id": "871b3490-0edc-4778-86df-ccdcff5c51f0",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d69610a9828bc2d9a11b93 | Cedula: 1056612922",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 20:07:56.162654 UTC"
+}, {
+  "log_id": "19d23882-ab41-44d4-a920-a905821e0c47",
+  "transaction_id": "5f9dcdf4-d7e2-4120-a148-f5ff45e15f27",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d699db310519e50ecce82b | Cedula: 1012389684",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 20:38:12.120680 UTC"
+}, {
+  "log_id": "35a441e2-67a5-4034-b608-c0ef028a3692",
+  "transaction_id": "e5c690cc-5f0a-48b3-b89f-d6f2ce0a1268",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d69d2bd6377fca068d1a9b | Cedula: 1007603445",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 20:37:56.088041 UTC"
+}, {
+  "log_id": "1e60a2b4-547a-414b-a149-7d44af19be00",
+  "transaction_id": "e5c690cc-5f0a-48b3-b89f-d6f2ce0a1268",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d69d2bd6377fca068d1a9b | Cedula: 1007603445",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 20:37:59.258537 UTC"
+}, {
+  "log_id": "47c4f588-bb25-49aa-97e7-8d3ed9ca3e6b",
+  "transaction_id": "bd5989fb-6811-4934-b95a-dcec50207800",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d67300f6dd63de3d4d93b8 | Cedula: 1023904854",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 19:38:10.983370 UTC"
+}, {
+  "log_id": "587c4c95-dc60-4d60-a382-59e2de8fb89a",
+  "transaction_id": "c4195ef4-b02c-4456-8d06-0851fb305f47",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d673103ab8e5ac4380f2fa | Cedula: 1017156500",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 19:37:56.008549 UTC"
+}, {
+  "log_id": "02e41a8a-e255-4e4f-93bb-3e3820653e28",
+  "transaction_id": "66959a14-2d13-4af0-97cf-ecc583225c41",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d673002450b57a27a531bf | Cedula: 1066572936",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-08 19:38:23.781925 UTC"
+}, {
+  "log_id": "9371f0fd-a583-47fd-a308-fd351d5043f1",
+  "transaction_id": "a2ebc98b-03d0-42c4-9aff-f76b26f1a5a4",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1022976700",
+  "response_received": "JobID: 8b644981-c125-404e-81ec-e61131ed49bd",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-09 22:37:49.549789 UTC"
+}, {
+  "log_id": "20d4dd16-d538-4fe7-a579-7830090d2aae",
+  "transaction_id": "25ed6f13-0fd6-4758-b92f-cb77cfef8194",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1083466119",
+  "response_received": "JobID: 08e4891a-21a9-4835-b7e8-7fc19dba57d0",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-09 22:07:54.795836 UTC"
+}, {
+  "log_id": "06b88cc3-ebed-43a4-a665-7a29da9c801f",
+  "transaction_id": "6f991f07-40e2-40da-8323-7544027c85bd",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1106392998",
+  "response_received": "JobID: 14e44d6a-67ea-4825-a762-b79e14d183bb",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-09 22:22:54.026782 UTC"
+}, {
+  "log_id": "d74074ae-6eb0-4316-9860-86ccd35c1c8f",
+  "transaction_id": "1cd2ff17-b75c-4936-9ae6-23e66ac03faf",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1012359956",
+  "response_received": "JobID: 2a606688-4fdc-4fa0-aeb6-16d9a67c463d",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-09 21:37:52.779550 UTC"
+}, {
+  "log_id": "9298272b-18da-4c29-8932-db228f4aa951",
+  "transaction_id": "7bf88a2c-641c-4316-93c6-3f62a78bbec9",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 6937945",
+  "response_received": "JobID: b884e6e2-46f6-48ac-aa6e-38f1afbcd62f",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-09 21:52:52.556655 UTC"
+}, {
+  "log_id": "fe4e1bfa-a648-4424-95a5-8ce49ba28789",
+  "transaction_id": "1cd2ff17-b75c-4936-9ae6-23e66ac03faf",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d81c8f7b5477cc86471210 | Cedula: 1012359956",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 00:07:58.260725 UTC"
+}, {
+  "log_id": "fc8f8061-9b59-4baa-a690-d047709e1b4e",
+  "transaction_id": "1cd2ff17-b75c-4936-9ae6-23e66ac03faf",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d81c8f7b5477cc86471210 | Cedula: 1012359956",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 00:08:01.407342 UTC"
+}, {
+  "log_id": "4f098243-8451-4112-ba6b-99176e3cd49a",
+  "transaction_id": "25ed6f13-0fd6-4758-b92f-cb77cfef8194",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d8236744f5982de4a72e59 | Cedula: 1083466119",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 00:38:14.469497 UTC"
+}, {
+  "log_id": "b1741597-692e-4afd-80b8-56c94064105a",
+  "transaction_id": "25ed6f13-0fd6-4758-b92f-cb77cfef8194",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d8236744f5982de4a72e59 | Cedula: 1083466119",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 00:38:16.682052 UTC"
+}, {
+  "log_id": "e5f7aa48-e22e-42f5-b12e-21919745a7ce",
+  "transaction_id": "6f991f07-40e2-40da-8323-7544027c85bd",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d826d5aea79b9cb314c3a4 | Cedula: 1106392998",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 00:38:27.556592 UTC"
+}, {
+  "log_id": "2c10ba6a-9f8a-4884-915f-721cc3e4b24c",
+  "transaction_id": "a2ebc98b-03d0-42c4-9aff-f76b26f1a5a4",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d82ab3e24e800cd90d9052 | Cedula: 1022976700",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 00:38:02.399544 UTC"
+}, {
+  "log_id": "dcc56696-5b48-4c34-82aa-34efa0383022",
+  "transaction_id": "a2ebc98b-03d0-42c4-9aff-f76b26f1a5a4",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d82ab3e24e800cd90d9052 | Cedula: 1022976700",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 00:37:59.446156 UTC"
+}, {
+  "log_id": "97e82c8a-b0a2-49c7-969d-f5dbcf24c5d4",
+  "transaction_id": "1761c0d3-b71f-430d-8df2-a2d86996288e",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d7e42d89fb4a7738b96b54 | Cedula: 1126257357",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 22:07:56.400709 UTC"
+}, {
+  "log_id": "644627f0-4f90-4c70-a9ac-30554b8a9a1d",
+  "transaction_id": "1f8991ea-fbcd-4265-afde-73bd8ceca5e2",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d7e4353de3c0208ab9cf28 | Cedula: 22118753",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 22:08:10.626190 UTC"
+}, {
+  "log_id": "36b9b783-e829-4481-9ec3-b549daeab994",
+  "transaction_id": "086499ee-09ef-4620-8cdc-9588b829abf7",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d7e0b9509adda2f4c6717c | Cedula: 1192743381",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-09 21:37:56.937564 UTC"
+}, {
+  "log_id": "731cffb8-68bf-46ea-a6fb-d5a4b21909ff",
+  "transaction_id": "a2ebc98b-03d0-42c4-9aff-f76b26f1a5a4",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d82ab3e24e800cd90d9052 | Cedula: 1022976700",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 02:37:57.387543 UTC"
+}, {
+  "log_id": "07d1adf7-e797-4ad9-800e-d828d349086f",
+  "transaction_id": "1cd2ff17-b75c-4936-9ae6-23e66ac03faf",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d81c8f7b5477cc86471210 | Cedula: 1012359956",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 02:07:58.533584 UTC"
+}, {
+  "log_id": "b30e3aeb-496d-4af1-8246-16946d5008de",
+  "transaction_id": "6f991f07-40e2-40da-8323-7544027c85bd",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d826d5aea79b9cb314c3a4 | Cedula: 1106392998",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 00:38:29.486627 UTC"
+}, {
+  "log_id": "829b3cd5-9d75-4086-80cb-1a5f9ab4c6fb",
+  "transaction_id": "6f991f07-40e2-40da-8323-7544027c85bd",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d826d5aea79b9cb314c3a4 | Cedula: 1106392998",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 02:38:24.980594 UTC"
+}, {
+  "log_id": "4ba24860-62dd-49d0-98b3-746eaa6e5cea",
+  "transaction_id": "25ed6f13-0fd6-4758-b92f-cb77cfef8194",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d8236744f5982de4a72e59 | Cedula: 1083466119",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 02:38:12.104533 UTC"
+}, {
+  "log_id": "40587eb4-ec57-4b01-a54b-d1c7d7b376ad",
+  "transaction_id": "b2651673-a006-4545-8502-55a33cab4250",
+  "action_type": "WATCHDOG_TIMEOUT",
+  "payload_sent": "Estado atascado: PARTIAL_WAITING_RETRY",
+  "response_received": "Marcado como TIMEOUT. Se cancela el procesamiento y se adjunta reporte parcial en ATS.",
+  "status": "consulta manual",
+  "timestamp": "2026-04-09 21:10:28.626600 UTC"
+}, {
+  "log_id": "65e4cfb0-9376-4242-bf56-a524ae87fd67",
+  "transaction_id": "6f991f07-40e2-40da-8323-7544027c85bd",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d826d5aea79b9cb314c3a4",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-09 22:23:33.430642 UTC"
+}, {
+  "log_id": "e2301c03-e186-4c86-b0cc-ecc0a25a0f99",
+  "transaction_id": "a2ebc98b-03d0-42c4-9aff-f76b26f1a5a4",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d82ab3e24e800cd90d9052",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-09 22:40:02.449654 UTC"
+}, {
+  "log_id": "e47ca79f-1f3c-4b35-b99e-7e762fe3a171",
+  "transaction_id": "25ed6f13-0fd6-4758-b92f-cb77cfef8194",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d8236744f5982de4a72e59",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-09 22:08:58.688991 UTC"
+}, {
+  "log_id": "7df6fae2-1c12-48ea-a378-85996aeeddc5",
+  "transaction_id": "1cd2ff17-b75c-4936-9ae6-23e66ac03faf",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d81c8f7b5477cc86471210",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-09 21:39:43.773851 UTC"
+}, {
+  "log_id": "592c1728-4c5c-4fad-aff7-b5fab2cdaf49",
+  "transaction_id": "7bf88a2c-641c-4316-93c6-3f62a78bbec9",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d81fcb9aca9b464bd65ee7",
+  "response_received": "Aprobado - Riesgo: info",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-09 21:53:28.860909 UTC"
+}, {
+  "log_id": "d2ddb9f3-07b1-41a7-acbb-5488022d472c",
+  "transaction_id": "693c09a3-3bbf-45a5-99e9-fddc4deaa961",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d919ac9f1987a06172edb3",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 15:39:41.575185 UTC"
+}, {
+  "log_id": "4e6b1407-ac76-46cf-a428-f5fe9d1ff6d9",
+  "transaction_id": "cbf34942-a613-448e-bdff-eeb9e81f4ebf",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d91cf5efe6185990a8a3eb",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 15:53:42.984123 UTC"
+}, {
+  "log_id": "6ed22d46-c452-4f76-8a6c-62a3d9e41403",
+  "transaction_id": "81f4c10a-901d-476e-ad2d-ccf35ca975d5",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d91973875a9f8cca1278db",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 15:38:45.076268 UTC"
+}, {
+  "log_id": "4229a69b-f148-48c3-8713-c55167b23f0e",
+  "transaction_id": "8c7fbd8a-1683-4974-b171-e95d5162d365",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d904836aaffeb4a8bc1eca",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 14:09:38.303032 UTC"
+}, {
+  "log_id": "125d2e6f-fc93-4bab-b0ee-63195d967b9d",
+  "transaction_id": "1ef716c5-efc0-4d70-ae16-5d2cbdc8728f",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d9047fd674aa9ce4d2b770",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 14:09:19.790188 UTC"
+}, {
+  "log_id": "8c73cb24-cb04-4d0a-a686-2903341211dc",
+  "transaction_id": "4b472a33-b172-4d5d-8f68-9ff68b5828a9",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d8f6564635ce230e2ee4d4",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 13:09:09.296794 UTC"
+}, {
+  "log_id": "196bb072-54ef-4bd2-b684-a726887e37eb",
+  "transaction_id": "e32b581a-1cd0-4c96-86e6-55681c71d0df",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d8fd6949867ca79f3dfac4",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 13:39:27.376643 UTC"
+}, {
+  "log_id": "d3b5a08f-649b-43ad-a878-952c84578325",
+  "transaction_id": "6be22460-7a9e-4a2a-a013-c1ed781f7432",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d8fd58834a46f6ff11e863",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 13:38:52.570679 UTC"
+}, {
+  "log_id": "3032836a-c8ad-4580-b756-5e291f48da14",
+  "transaction_id": "45a9760e-50c7-4195-9a15-57889cf56b71",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d8fd5d9ac9d5ff582c77ef",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 13:39:13.709135 UTC"
+}, {
+  "log_id": "9b5a0c55-5068-49e3-adcb-38384bb523e0",
+  "transaction_id": "666a9eb5-525b-4dea-8b4e-5cd2ad905b3e",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d8fd4bfabaf034771e089d",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 13:38:37.066128 UTC"
+}, {
+  "log_id": "3470bca4-cec7-4d13-bbfb-fbd959dc1a7b",
+  "transaction_id": "cbf34942-a613-448e-bdff-eeb9e81f4ebf",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1093754222",
+  "response_received": "JobID: ca86296c-0a5b-4dbb-bddb-cfd93a3609db",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 15:52:52.555005 UTC"
+}, {
+  "log_id": "f2fa6b73-dcd0-4852-9538-d418691b0cf7",
+  "transaction_id": "81f4c10a-901d-476e-ad2d-ccf35ca975d5",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1069302095",
+  "response_received": "JobID: 53793053-4547-4d22-963d-993ee7515965",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 15:37:56.630897 UTC"
+}, {
+  "log_id": "61bb9647-a4f5-4d34-8454-bb1e23ecbce3",
+  "transaction_id": "693c09a3-3bbf-45a5-99e9-fddc4deaa961",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1109301229",
+  "response_received": "JobID: 4f0f7a6d-2e45-4fa8-ad24-fd6d6dae73b6",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 15:38:04.973854 UTC"
+}, {
+  "log_id": "4db3cdf9-bf18-4a22-8990-d1ce25b29936",
+  "transaction_id": "1ef716c5-efc0-4d70-ae16-5d2cbdc8728f",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 8501552",
+  "response_received": "JobID: a677a3a8-4823-40d2-8fda-507280ff319b",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 14:08:02.012042 UTC"
+}, {
+  "log_id": "94a9458f-5b61-40a5-bb45-6c5f024333a8",
+  "transaction_id": "8c7fbd8a-1683-4974-b171-e95d5162d365",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1051663146",
+  "response_received": "JobID: ab0d2907-556c-4772-a64c-1fbb47152b00",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 14:07:54.381939 UTC"
+}, {
+  "log_id": "95bf0f48-9d8d-478a-9cfa-f646cc294c60",
+  "transaction_id": "6be22460-7a9e-4a2a-a013-c1ed781f7432",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1001339684",
+  "response_received": "JobID: 91c72503-1ef3-4431-927e-4c04d2384a93",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 13:38:00.068338 UTC"
+}, {
+  "log_id": "1ca169a7-3ce9-489e-b36e-48ce598eaa22",
+  "transaction_id": "666a9eb5-525b-4dea-8b4e-5cd2ad905b3e",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 80061922",
+  "response_received": "JobID: 4204cd4d-e386-44ea-9551-d2bb6e8f0b5c",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 13:37:51.258411 UTC"
+}, {
+  "log_id": "6e3d7cca-2b32-4f55-8ae1-42a9d43fe8e7",
+  "transaction_id": "4b472a33-b172-4d5d-8f68-9ff68b5828a9",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 71794953",
+  "response_received": "JobID: 6db8e058-4e71-42e9-9e5e-0083578ecaea",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 13:07:50.740244 UTC"
+}, {
+  "log_id": "6305e409-280e-42e7-b2de-9970dc7b8e7f",
+  "transaction_id": "45a9760e-50c7-4195-9a15-57889cf56b71",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1032386116",
+  "response_received": "JobID: 0c4d1d67-93df-44d4-a537-84e9ce9e0ce2",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 13:38:09.671956 UTC"
+}, {
+  "log_id": "38501d67-174d-49dc-80c8-2955c9c8e29c",
+  "transaction_id": "e32b581a-1cd0-4c96-86e6-55681c71d0df",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1023036151",
+  "response_received": "JobID: cb1527c5-8725-4e92-9453-8574c87aa885",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 13:38:16.725428 UTC"
+}, {
+  "log_id": "99b2aa21-5ee6-489b-8caf-11e33a3cc280",
+  "transaction_id": "6f991f07-40e2-40da-8323-7544027c85bd",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d826d5aea79b9cb314c3a4 | Cedula: 1106392998",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 10:38:10.196496 UTC"
+}, {
+  "log_id": "eb3c09ac-4864-44ef-a406-6af162eae0db",
+  "transaction_id": "1cd2ff17-b75c-4936-9ae6-23e66ac03faf",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d81c8f7b5477cc86471210 | Cedula: 1012359956",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 10:07:58.484234 UTC"
+}, {
+  "log_id": "109b4751-eb2e-47b8-a80c-2a1a76b24e20",
+  "transaction_id": "1761c0d3-b71f-430d-8df2-a2d86996288e",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d7e42d89fb4a7738b96b54 | Cedula: 1126257357",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 06:07:57.950704 UTC"
+}, {
+  "log_id": "811749c9-76dc-4bd9-8ac9-78471db94979",
+  "transaction_id": "25ed6f13-0fd6-4758-b92f-cb77cfef8194",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d8236744f5982de4a72e59 | Cedula: 1083466119",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 10:37:56.147423 UTC"
+}, {
+  "log_id": "229662e8-9d96-4630-a806-3ccb324e3d3f",
+  "transaction_id": "1f8991ea-fbcd-4265-afde-73bd8ceca5e2",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d7e4353de3c0208ab9cf28 | Cedula: 22118753",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 06:08:13.335468 UTC"
+}, {
+  "log_id": "2eb59200-b7c0-4173-ac0d-e81597efe989",
+  "transaction_id": "086499ee-09ef-4620-8cdc-9588b829abf7",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d7e0b9509adda2f4c6717c | Cedula: 1192743381",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 05:37:55.797670 UTC"
+}, {
+  "log_id": "55906865-12dc-4761-b4cd-45ab784af8c5",
+  "transaction_id": "4b472a33-b172-4d5d-8f68-9ff68b5828a9",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d8f6564635ce230e2ee4d4 | Cedula: 71794953",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 15:07:59.939740 UTC"
+}, {
+  "log_id": "f23347c4-d3ce-4bcc-a196-457ebd0ffde1",
+  "transaction_id": "a2ebc98b-03d0-42c4-9aff-f76b26f1a5a4",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d82ab3e24e800cd90d9052 | Cedula: 1022976700",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 11:07:59.149959 UTC"
+}, {
+  "log_id": "f05070a3-f267-445b-a8e5-4da9a90cd1db",
+  "transaction_id": "7ae4b806-d1cb-4747-bbb5-b1c6540ca781",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d93929704e53b8c9322ec1",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 17:54:09.946248 UTC"
+}, {
+  "log_id": "6dbaee36-c8d0-448d-b597-59e1f1b47b58",
+  "transaction_id": "b59bb4e2-fb4e-4373-8453-3b169abcec99",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d935b160394d12ed4439f9",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 17:39:14.705840 UTC"
+}, {
+  "log_id": "2f3f8b4a-df15-4dbf-8453-21e40ac8cd51",
+  "transaction_id": "f2b9f2ff-e016-43d3-828b-e660b04207c2",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d93923ac2e666133326c4f",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 17:53:54.550312 UTC"
+}, {
+  "log_id": "fa61347c-a09d-4fff-980a-8a0c62c0d676",
+  "transaction_id": "a03e294b-ed37-4f2e-a445-563249deb458",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d9393d788f6cc3b25745c0",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 17:54:25.725975 UTC"
+}, {
+  "log_id": "04ee7040-c3ee-4201-93b9-63069bea24cd",
+  "transaction_id": "a59e5070-2e40-4c4f-b320-ffed0b8673f3",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d924465059e2acb66a727c",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 16:24:58.406273 UTC"
+}, {
+  "log_id": "f18b267f-4e4f-461f-b044-2320c0cdd87e",
+  "transaction_id": "95bf8793-a0c3-421c-af15-f3ea1156ef70",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d92b09b0ef5a0001bc1eca",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 16:53:56.485294 UTC"
+}, {
+  "log_id": "005515b2-d19e-4b59-b967-77f033f57ca1",
+  "transaction_id": "e0aeeef9-1c17-4672-a48c-988463654a8f",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d92b03559bc3c8b8fa7b0f",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 16:53:40.980267 UTC"
+}, {
+  "log_id": "19c29155-d9bc-44cb-9b61-ebbb56bf5412",
+  "transaction_id": "a220f9f2-74e5-4ce0-9786-43176a54ec93",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d92b3d176ade9eeb42fb89",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 16:54:37.606254 UTC"
+}, {
+  "log_id": "a5ed6e1d-1f03-42e0-b17f-5d2a757579a7",
+  "transaction_id": "7006a056-41aa-4e05-98a0-5689d0932cd9",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d940236d3d08d35014524e",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 18:23:48.750684 UTC"
+}, {
+  "log_id": "2f9058cc-b777-46aa-9cf1-4a36924ccc3d",
+  "transaction_id": "26cd2662-73ab-491f-95b9-c41baaa4a7f6",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d94040e7823e3583a3a464",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 18:24:14.734919 UTC"
+}, {
+  "log_id": "ecf7d36b-e659-452c-aceb-c31b2ce04364",
+  "transaction_id": "35a1447d-d452-46da-bdb3-6f0a6d0a569f",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d94010b1ae9be91096d296",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 18:23:28.597945 UTC"
+}, {
+  "log_id": "7a01f6d7-7cc1-4226-a4b5-d6c6250bb719",
+  "transaction_id": "f1914018-85a0-4b38-b21b-448bf50a6b59",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d93c9afa2c230ba4ea7012",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 18:08:42.819177 UTC"
+}, {
+  "log_id": "fdb3c0d6-8202-44a1-b6b0-7f1c34c7a6e5",
+  "transaction_id": "7ae4b806-d1cb-4747-bbb5-b1c6540ca781",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1043438507",
+  "response_received": "JobID: 0736c42e-c5c9-4fd7-b7e9-8be6671c0dff",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 17:53:09.901614 UTC"
+}, {
+  "log_id": "e38febd6-ac0d-4a18-baae-c1a13140bfa2",
+  "transaction_id": "f1914018-85a0-4b38-b21b-448bf50a6b59",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 91442838",
+  "response_received": "JobID: 9fbec4c9-d212-44af-86c1-e23133c05b3f",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 18:07:52.210156 UTC"
+}, {
+  "log_id": "c3071c6b-a65f-4545-9a04-7ae56c2787d1",
+  "transaction_id": "a03e294b-ed37-4f2e-a445-563249deb458",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1023938666",
+  "response_received": "JobID: 68e13a3d-63e3-4bf2-aad6-6e432163c1d0",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 17:53:01.175049 UTC"
+}, {
+  "log_id": "a14a9506-c78d-4917-9f92-6d6538d5079d",
+  "transaction_id": "f2b9f2ff-e016-43d3-828b-e660b04207c2",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1000123577",
+  "response_received": "JobID: 9d895c10-ce01-4bc4-89e4-e46e6256afa2",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 17:52:54.039065 UTC"
+}, {
+  "log_id": "a6b8a0ca-4185-4281-8955-ac581ff1ef77",
+  "transaction_id": "e0aeeef9-1c17-4672-a48c-988463654a8f",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1006166702",
+  "response_received": "JobID: 04d313be-0380-40de-aa60-ad2b4a2a9ae7",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 16:53:01.672263 UTC"
+}, {
+  "log_id": "3dd95c86-f851-4ab3-90e3-ded1ddaa4156",
+  "transaction_id": "b59bb4e2-fb4e-4373-8453-3b169abcec99",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1007367115",
+  "response_received": "JobID: ba15ae03-9b67-4474-bf1c-e533c5380fab",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 17:37:47.343370 UTC"
+}, {
+  "log_id": "83e0c34f-d572-4b10-8bc5-8265bcf16e4a",
+  "transaction_id": "a220f9f2-74e5-4ce0-9786-43176a54ec93",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1087556501",
+  "response_received": "JobID: 7862d545-4009-4552-8ea5-955d4c6f3640",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 16:53:13.403567 UTC"
+}, {
+  "log_id": "055ec9c1-1596-4d8f-9b56-0c12a632b35b",
+  "transaction_id": "95bf8793-a0c3-421c-af15-f3ea1156ef70",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1082903580",
+  "response_received": "JobID: fe6560a3-75eb-4dd2-b4c1-3790fc00c92f",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 16:52:53.314544 UTC"
+}, {
+  "log_id": "8b50f2da-f989-4741-b68f-d6ea053df1f7",
+  "transaction_id": "7006a056-41aa-4e05-98a0-5689d0932cd9",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1010175668",
+  "response_received": "JobID: 16b385f4-7257-41f1-a0cb-b798771ea8d2",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 18:23:03.584103 UTC"
+}, {
+  "log_id": "480e9ca4-ef5a-4ebb-8695-5a6d2b29a28c",
+  "transaction_id": "26cd2662-73ab-491f-95b9-c41baaa4a7f6",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1005552130",
+  "response_received": "JobID: 35ddff37-a778-4740-9b04-3841db0facbf",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 18:22:56.022845 UTC"
+}, {
+  "log_id": "715c0083-d953-4134-a65b-1250985acd5c",
+  "transaction_id": "35a1447d-d452-46da-bdb3-6f0a6d0a569f",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1073713632",
+  "response_received": "JobID: faf7f205-8338-43ac-93ab-349d2d6f4ac1",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 18:22:48.887311 UTC"
+}, {
+  "log_id": "f96654f6-32bd-4efe-8c67-6ff86ad694cf",
+  "transaction_id": "a59e5070-2e40-4c4f-b320-ffed0b8673f3",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1106894826",
+  "response_received": "JobID: 4a721bc7-35d1-4138-8b82-61ae35d0a466",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 16:22:49.781837 UTC"
+}, {
+  "log_id": "b1cdea30-54ff-44d8-ae8d-3d6304b86ac0",
+  "transaction_id": "REUSED_CANDIDATE_601977",
+  "action_type": "REUSE_PARTIAL_REPORT",
+  "payload_sent": "CC: 1000123577",
+  "response_received": "Reporte parcial reutilizado. En espera de listas - Riesgo Preliminar: bajo",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 18:08:01.522179 UTC"
+}, {
+  "log_id": "1075a6b4-3efc-4fec-a5ca-ebe0a9cd6cce",
+  "transaction_id": "81f4c10a-901d-476e-ad2d-ccf35ca975d5",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d91973875a9f8cca1278db | Cedula: 1069302095",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 18:07:56.439129 UTC"
+}, {
+  "log_id": "2118d3f4-78de-4725-9273-88891f7617d6",
+  "transaction_id": "cbf34942-a613-448e-bdff-eeb9e81f4ebf",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d91cf5efe6185990a8a3eb | Cedula: 1093754222",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 18:08:12.998858 UTC"
+}, {
+  "log_id": "6e656f9d-4eb2-485d-a942-d365526a848a",
+  "transaction_id": "95bf8793-a0c3-421c-af15-f3ea1156ef70",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d92b09b0ef5a0001bc1eca | Cedula: 1082903580",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 19:08:13.170438 UTC"
+}, {
+  "log_id": "7a95de7a-75e4-4ac4-8acb-12d9d7068614",
+  "transaction_id": "e0aeeef9-1c17-4672-a48c-988463654a8f",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d92b03559bc3c8b8fa7b0f | Cedula: 1006166702",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 19:07:58.833099 UTC"
+}, {
+  "log_id": "1d8c8e09-0674-4313-90e9-8e10f5c162be",
+  "transaction_id": "a220f9f2-74e5-4ce0-9786-43176a54ec93",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d92b3d176ade9eeb42fb89 | Cedula: 1087556501",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 19:08:28.159952 UTC"
+}, {
+  "log_id": "886ed324-b67a-495d-acd4-6d4ae260f91f",
+  "transaction_id": "b59bb4e2-fb4e-4373-8453-3b169abcec99",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d935b160394d12ed4439f9 | Cedula: 1007367115",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 19:37:57.378955 UTC"
+}, {
+  "log_id": "b6c8f887-c058-4b87-90db-de8c1946d9a5",
+  "transaction_id": "4b472a33-b172-4d5d-8f68-9ff68b5828a9",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d8f6564635ce230e2ee4d4 | Cedula: 71794953",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 19:08:42.626211 UTC"
+}, {
+  "log_id": "784e7cb9-1221-4f2a-b757-aa520e247458",
+  "transaction_id": "8c7fbd8a-1683-4974-b171-e95d5162d365",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d904836aaffeb4a8bc1eca | Cedula: 1051663146",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 16:38:03.659764 UTC"
+}, {
+  "log_id": "9020f727-33cc-466d-bb65-a1018832a5fb",
+  "transaction_id": "1ef716c5-efc0-4d70-ae16-5d2cbdc8728f",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d9047fd674aa9ce4d2b770 | Cedula: 8501552",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 16:38:18.398183 UTC"
+}, {
+  "log_id": "fe822897-02a7-49da-9150-ff724ebb206d",
+  "transaction_id": "a59e5070-2e40-4c4f-b320-ffed0b8673f3",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d924465059e2acb66a727c | Cedula: 1106894826",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 18:37:58.232311 UTC"
+}, {
+  "log_id": "ddb40598-483e-4331-b7b2-aff39667f8cc",
+  "transaction_id": "693c09a3-3bbf-45a5-99e9-fddc4deaa961",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d919ac9f1987a06172edb3 | Cedula: 1109301229",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 18:08:26.847864 UTC"
+}, {
+  "log_id": "df9624d1-511a-46c9-bb5c-217efef3b14e",
+  "transaction_id": "e32b581a-1cd0-4c96-86e6-55681c71d0df",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d8fd6949867ca79f3dfac4 | Cedula: 1023036151",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 16:08:13.553830 UTC"
+}, {
+  "log_id": "67e992a9-1e98-498f-96bd-1981580b7d5f",
+  "transaction_id": "6be22460-7a9e-4a2a-a013-c1ed781f7432",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d8fd58834a46f6ff11e863 | Cedula: 1001339684",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 16:07:58.284277 UTC"
+}, {
+  "log_id": "3bf892bb-024d-4aed-ae62-4de10c1d40fd",
+  "transaction_id": "666a9eb5-525b-4dea-8b4e-5cd2ad905b3e",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d8fd4bfabaf034771e089d | Cedula: 80061922",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 16:08:42.146533 UTC"
+}, {
+  "log_id": "398d80b1-e2b3-4ab1-a539-a6fd034bebdc",
+  "transaction_id": "45a9760e-50c7-4195-9a15-57889cf56b71",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d8fd5d9ac9d5ff582c77ef | Cedula: 1032386116",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 16:08:27.353610 UTC"
+}, {
+  "log_id": "e0180599-4806-4b76-890c-c12f6f4c32ca",
+  "transaction_id": "086499ee-09ef-4620-8cdc-9588b829abf7",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d7e0b9509adda2f4c6717c | Cedula: 1192743381",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 23:38:26.969410 UTC"
+}, {
+  "log_id": "7b9e7d68-a2ef-4a3a-ac76-3f477b2bd2d0",
+  "transaction_id": "1761c0d3-b71f-430d-8df2-a2d86996288e",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d7e42d89fb4a7738b96b54 | Cedula: 1126257357",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-11 00:08:38.368975 UTC"
+}, {
+  "log_id": "71588b35-4402-4a73-ac3d-f78b54b7c698",
+  "transaction_id": "1f8991ea-fbcd-4265-afde-73bd8ceca5e2",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d7e4353de3c0208ab9cf28 | Cedula: 22118753",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-11 00:08:53.538938 UTC"
+}, {
+  "log_id": "8c1cd377-b6ee-4903-94c9-ff117a7bc4d0",
+  "transaction_id": "9826fe50-a89a-4a06-9c0a-2bcd77a43b6a",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d966ca5408fcb40e207985",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 21:08:44.498702 UTC"
+}, {
+  "log_id": "e1913cbb-415e-475b-b8e3-e42c055b93ce",
+  "transaction_id": "d05fdc54-e0ba-48ad-8443-6cf39db0a298",
+  "action_type": "WEBHOOK_PROCESSED",
+  "payload_sent": "ReportID: 69d97bdccfdbfd89f4ce15bb",
+  "response_received": "Error - Listas Obligatorias Caídas",
+  "status": "ERROR",
+  "timestamp": "2026-04-10 22:38:35.587190 UTC"
+}, {
+  "log_id": "f0dc5258-5d46-4dde-b2ce-e1aa15bdb473",
+  "transaction_id": "d05fdc54-e0ba-48ad-8443-6cf39db0a298",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1014276877",
+  "response_received": "JobID: 21ca9019-a042-409e-b4bc-b2b5184424d1",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 22:37:51.386941 UTC"
+}, {
+  "log_id": "fd297683-ee23-4851-bdce-9545e373b5f6",
+  "transaction_id": "9826fe50-a89a-4a06-9c0a-2bcd77a43b6a",
+  "action_type": "API_LAUNCH",
+  "payload_sent": "CC: 1072703846",
+  "response_received": "JobID: 10ab33d3-9985-4bcd-becc-f24e3f54da54",
+  "status": "SUCCESS",
+  "timestamp": "2026-04-10 21:07:51.016196 UTC"
+}, {
+  "log_id": "f8d39c41-7273-46d0-91c9-b7f6d2e2c6d9",
+  "transaction_id": "666a9eb5-525b-4dea-8b4e-5cd2ad905b3e",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d8fd4bfabaf034771e089d | Cedula: 80061922",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 20:09:25.183233 UTC"
+}, {
+  "log_id": "30be8ee7-aa16-464d-8aaa-1c7af13ac76d",
+  "transaction_id": "6be22460-7a9e-4a2a-a013-c1ed781f7432",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d8fd58834a46f6ff11e863 | Cedula: 1001339684",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 20:08:16.184274 UTC"
+}, {
+  "log_id": "447d4591-9edc-44ab-9e2b-f3637c35e86c",
+  "transaction_id": "45a9760e-50c7-4195-9a15-57889cf56b71",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d8fd5d9ac9d5ff582c77ef | Cedula: 1032386116",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 20:08:58.153385 UTC"
+}, {
+  "log_id": "1030095a-8fac-499d-a834-822fc58fb0b7",
+  "transaction_id": "e32b581a-1cd0-4c96-86e6-55681c71d0df",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d8fd6949867ca79f3dfac4 | Cedula: 1023036151",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 20:08:30.337340 UTC"
+}, {
+  "log_id": "6398a04e-dfcb-4786-84db-73f04ca0b211",
+  "transaction_id": "1ef716c5-efc0-4d70-ae16-5d2cbdc8728f",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d9047fd674aa9ce4d2b770 | Cedula: 8501552",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 20:39:03.661071 UTC"
+}, {
+  "log_id": "dcbc54a7-4412-4687-8c8e-247944569433",
+  "transaction_id": "8c7fbd8a-1683-4974-b171-e95d5162d365",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d904836aaffeb4a8bc1eca | Cedula: 1051663146",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 20:38:35.659742 UTC"
+}, {
+  "log_id": "5f371ce7-1e33-4398-9a0d-283b1fe470e1",
+  "transaction_id": "81f4c10a-901d-476e-ad2d-ccf35ca975d5",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d91973875a9f8cca1278db | Cedula: 1069302095",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 22:07:56.139166 UTC"
+}, {
+  "log_id": "c770e3ca-19df-45d9-b207-55bd9d251e77",
+  "transaction_id": "693c09a3-3bbf-45a5-99e9-fddc4deaa961",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d919ac9f1987a06172edb3 | Cedula: 1109301229",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 22:08:25.365130 UTC"
+}, {
+  "log_id": "8df54da1-5dac-4e77-bf17-0e6b5e7d0669",
+  "transaction_id": "cbf34942-a613-448e-bdff-eeb9e81f4ebf",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d91cf5efe6185990a8a3eb | Cedula: 1093754222",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 22:08:11.970056 UTC"
+}, {
+  "log_id": "7cff6fef-1aee-42d3-bd65-c607d0e77b09",
+  "transaction_id": "a59e5070-2e40-4c4f-b320-ffed0b8673f3",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d924465059e2acb66a727c | Cedula: 1106894826",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 22:37:57.114423 UTC"
+}, {
+  "log_id": "4dc7e461-f578-44ad-bfc4-85aa0255e73d",
+  "transaction_id": "e0aeeef9-1c17-4672-a48c-988463654a8f",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d92b03559bc3c8b8fa7b0f | Cedula: 1006166702",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 23:07:57.111688 UTC"
+}, {
+  "log_id": "504d18b9-3a40-4076-9407-132fc3189174",
+  "transaction_id": "95bf8793-a0c3-421c-af15-f3ea1156ef70",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d92b09b0ef5a0001bc1eca | Cedula: 1082903580",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 23:08:11.930910 UTC"
+}, {
+  "log_id": "ac043782-68e8-44f9-b694-2c2679f26f7f",
+  "transaction_id": "a220f9f2-74e5-4ce0-9786-43176a54ec93",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d92b3d176ade9eeb42fb89 | Cedula: 1087556501",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 23:08:27.872201 UTC"
+}, {
+  "log_id": "6dda5f46-7158-4dcd-9bdb-5d477b4c2c1f",
+  "transaction_id": "b59bb4e2-fb4e-4373-8453-3b169abcec99",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d935b160394d12ed4439f9 | Cedula: 1007367115",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 23:37:59.044954 UTC"
+}, {
+  "log_id": "9f20f5ca-2887-4b0f-92b1-797e05b53d2c",
+  "transaction_id": "f2b9f2ff-e016-43d3-828b-e660b04207c2",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d93923ac2e666133326c4f | Cedula: 1000123577",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 00:07:57.895620 UTC"
+}, {
+  "log_id": "9b07307f-427d-4cb0-8b94-1949ff5d01ca",
+  "transaction_id": "f2b9f2ff-e016-43d3-828b-e660b04207c2",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d93923ac2e666133326c4f | Cedula: 1000123577",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 20:08:00.533190 UTC"
+}, {
+  "log_id": "5b3b60e2-a992-42ba-8105-5b8ff19d1bc6",
+  "transaction_id": "7ae4b806-d1cb-4747-bbb5-b1c6540ca781",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d93929704e53b8c9322ec1 | Cedula: 1043438507",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 00:08:25.806326 UTC"
+}, {
+  "log_id": "1aedd8e2-7a52-4984-ba1d-a8a82038adf3",
+  "transaction_id": "7ae4b806-d1cb-4747-bbb5-b1c6540ca781",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d93929704e53b8c9322ec1 | Cedula: 1043438507",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 20:09:11.767547 UTC"
+}, {
+  "log_id": "3afdd9cb-7510-403d-9afa-089194753caa",
+  "transaction_id": "a03e294b-ed37-4f2e-a445-563249deb458",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d9393d788f6cc3b25745c0 | Cedula: 1023938666",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 00:08:12.199097 UTC"
+}, {
+  "log_id": "df1fddf9-17ee-4c5c-a0fe-36818bf87c3f",
+  "transaction_id": "a03e294b-ed37-4f2e-a445-563249deb458",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d9393d788f6cc3b25745c0 | Cedula: 1023938666",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 20:08:44.020978 UTC"
+}, {
+  "log_id": "224383c0-ee78-463c-86ea-36a4612d9580",
+  "transaction_id": "f1914018-85a0-4b38-b21b-448bf50a6b59",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d93c9afa2c230ba4ea7012 | Cedula: 91442838",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 20:09:39.616932 UTC"
+}, {
+  "log_id": "a7f4e3a5-7f2e-4ab5-ab9b-52de2d5334cf",
+  "transaction_id": "f1914018-85a0-4b38-b21b-448bf50a6b59",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d93c9afa2c230ba4ea7012 | Cedula: 91442838",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 00:09:08.442685 UTC"
+}, {
+  "log_id": "0b13c921-30f1-471a-a21a-fd460700841a",
+  "transaction_id": "35a1447d-d452-46da-bdb3-6f0a6d0a569f",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d94010b1ae9be91096d296 | Cedula: 1073713632",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 20:38:48.657980 UTC"
+}, {
+  "log_id": "0994897b-f949-4ecc-8d99-4bb9884dc400",
+  "transaction_id": "35a1447d-d452-46da-bdb3-6f0a6d0a569f",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d94010b1ae9be91096d296 | Cedula: 1073713632",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 00:38:24.709253 UTC"
+}, {
+  "log_id": "361c0760-b075-45bf-9291-62b2b1dcbe12",
+  "transaction_id": "7006a056-41aa-4e05-98a0-5689d0932cd9",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d940236d3d08d35014524e | Cedula: 1010175668",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 20:38:16.591036 UTC"
+}, {
+  "log_id": "608a52db-9216-45c4-b126-95a3a386bbcc",
+  "transaction_id": "7006a056-41aa-4e05-98a0-5689d0932cd9",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d940236d3d08d35014524e | Cedula: 1010175668",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 00:38:11.617322 UTC"
+}, {
+  "log_id": "acc3bdbb-c06e-4bea-95b8-2abf0147ddd6",
+  "transaction_id": "26cd2662-73ab-491f-95b9-c41baaa4a7f6",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d94040e7823e3583a3a464 | Cedula: 1005552130",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 20:37:58.643261 UTC"
+}, {
+  "log_id": "79da62a9-b741-4fb2-a3dd-7db03dffbba4",
+  "transaction_id": "26cd2662-73ab-491f-95b9-c41baaa4a7f6",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d94040e7823e3583a3a464 | Cedula: 1005552130",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 00:37:57.988330 UTC"
+}, {
+  "log_id": "4316b966-6233-4e1f-80a0-1ba1b85994e5",
+  "transaction_id": "9826fe50-a89a-4a06-9c0a-2bcd77a43b6a",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d966ca5408fcb40e207985 | Cedula: 1072703846",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-10 23:38:13.566376 UTC"
+}, {
+  "log_id": "44bff8f4-b8c0-4c9f-a7f9-e453e80aac63",
+  "transaction_id": "d05fdc54-e0ba-48ad-8443-6cf39db0a298",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d97bdccfdbfd89f4ce15bb | Cedula: 1014276877",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 01:07:56.670579 UTC"
+}, {
+  "log_id": "b0e60cc1-4c53-469f-86ed-de48c997018e",
+  "transaction_id": "1cd2ff17-b75c-4936-9ae6-23e66ac03faf",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d81c8f7b5477cc86471210 | Cedula: 1012359956",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-11 04:07:58.158906 UTC"
+}, {
+  "log_id": "b3fae8ea-d705-4418-92ec-3e3bff3e609b",
+  "transaction_id": "25ed6f13-0fd6-4758-b92f-cb77cfef8194",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d8236744f5982de4a72e59 | Cedula: 1083466119",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-11 04:38:11.713269 UTC"
+}, {
+  "log_id": "02005f08-ac6a-43b9-bb8d-b95f23f7085e",
+  "transaction_id": "a2ebc98b-03d0-42c4-9aff-f76b26f1a5a4",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d82ab3e24e800cd90d9052 | Cedula: 1022976700",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-11 04:37:57.347301 UTC"
+}, {
+  "log_id": "d172eedf-fbbe-4ba2-a326-a15950ccc317",
+  "transaction_id": "6f991f07-40e2-40da-8323-7544027c85bd",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d826d5aea79b9cb314c3a4 | Cedula: 1106392998",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-11 04:38:25.433720 UTC"
+}, {
+  "log_id": "33a7dd1f-c7bc-4831-ad3e-5aaed2fa9ecf",
+  "transaction_id": "9826fe50-a89a-4a06-9c0a-2bcd77a43b6a",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d966ca5408fcb40e207985 | Cedula: 1072703846",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 03:37:57.084995 UTC"
+}, {
+  "log_id": "2328f621-23cd-44f4-9466-a436fdb4b46b",
+  "transaction_id": "d05fdc54-e0ba-48ad-8443-6cf39db0a298",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d97bdccfdbfd89f4ce15bb | Cedula: 1014276877",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 05:07:58.820957 UTC"
+}, {
+  "log_id": "cbdbe86e-623f-4d5b-9710-d8de44895c67",
+  "transaction_id": "6be22460-7a9e-4a2a-a013-c1ed781f7432",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d8fd58834a46f6ff11e863 | Cedula: 1001339684",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 14:07:57.790142 UTC"
+}, {
+  "log_id": "b631e843-3d6e-44bf-a92c-7526afc55001",
+  "transaction_id": "666a9eb5-525b-4dea-8b4e-5cd2ad905b3e",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d8fd4bfabaf034771e089d | Cedula: 80061922",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 14:08:40.682581 UTC"
+}, {
+  "log_id": "6fb5f9db-4d2f-49de-948c-8cd41705560f",
+  "transaction_id": "45a9760e-50c7-4195-9a15-57889cf56b71",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d8fd5d9ac9d5ff582c77ef | Cedula: 1032386116",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 14:08:26.704409 UTC"
+}, {
+  "log_id": "00dda937-6dad-4b1a-86e8-d8380da0436a",
+  "transaction_id": "1ef716c5-efc0-4d70-ae16-5d2cbdc8728f",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d9047fd674aa9ce4d2b770 | Cedula: 8501552",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 14:38:14.228337 UTC"
+}, {
+  "log_id": "0f2fe9e0-636f-4178-99e0-74f7003b7153",
+  "transaction_id": "8c7fbd8a-1683-4974-b171-e95d5162d365",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d904836aaffeb4a8bc1eca | Cedula: 1051663146",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 14:37:57.735688 UTC"
+}, {
+  "log_id": "29064a64-989c-4a24-a457-6af301c65c10",
+  "transaction_id": "e32b581a-1cd0-4c96-86e6-55681c71d0df",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d8fd6949867ca79f3dfac4 | Cedula: 1023036151",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 14:08:12.555832 UTC"
+}, {
+  "log_id": "f98f614f-5349-4fda-9be2-497ca3068153",
+  "transaction_id": "4b472a33-b172-4d5d-8f68-9ff68b5828a9",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d8f6564635ce230e2ee4d4 | Cedula: 71794953",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 13:07:57.423749 UTC"
+}, {
+  "log_id": "b45652a9-88b7-40ad-b26f-7143f7a7d6fc",
+  "transaction_id": "f1914018-85a0-4b38-b21b-448bf50a6b59",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d93c9afa2c230ba4ea7012 | Cedula: 91442838",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 18:08:40.998448 UTC"
+}, {
+  "log_id": "65c15f8c-a906-49d8-8302-4be2fd0fbf97",
+  "transaction_id": "f2b9f2ff-e016-43d3-828b-e660b04207c2",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d93923ac2e666133326c4f | Cedula: 1000123577",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 18:07:59.254388 UTC"
+}, {
+  "log_id": "77e673c7-9c01-43a9-a07d-b83e4e94f470",
+  "transaction_id": "26cd2662-73ab-491f-95b9-c41baaa4a7f6",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d94040e7823e3583a3a464 | Cedula: 1005552130",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 18:37:58.134703 UTC"
+}, {
+  "log_id": "6c0f5d1e-34eb-4538-9880-ed590e2e39c5",
+  "transaction_id": "95bf8793-a0c3-421c-af15-f3ea1156ef70",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d92b09b0ef5a0001bc1eca | Cedula: 1082903580",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 17:08:13.129949 UTC"
+}, {
+  "log_id": "0bb07d49-32a0-4f21-a065-1734826d60df",
+  "transaction_id": "b59bb4e2-fb4e-4373-8453-3b169abcec99",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d935b160394d12ed4439f9 | Cedula: 1007367115",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 17:37:56.950935 UTC"
+}, {
+  "log_id": "868f034c-5fa9-47ec-880a-d274e5f76cda",
+  "transaction_id": "7ae4b806-d1cb-4747-bbb5-b1c6540ca781",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d93929704e53b8c9322ec1 | Cedula: 1043438507",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 18:08:26.197174 UTC"
+}, {
+  "log_id": "8c50c7b4-4a8c-4d75-bec1-217681c8315d",
+  "transaction_id": "a03e294b-ed37-4f2e-a445-563249deb458",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d9393d788f6cc3b25745c0 | Cedula: 1023938666",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 18:08:12.974314 UTC"
+}, {
+  "log_id": "bee79a64-d621-44d9-b857-fdeb8f480d1a",
+  "transaction_id": "a220f9f2-74e5-4ce0-9786-43176a54ec93",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d92b3d176ade9eeb42fb89 | Cedula: 1087556501",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 17:08:27.368086 UTC"
+}, {
+  "log_id": "e4174428-b971-475e-9b7d-3851362c0f75",
+  "transaction_id": "e0aeeef9-1c17-4672-a48c-988463654a8f",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d92b03559bc3c8b8fa7b0f | Cedula: 1006166702",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 17:07:59.301366 UTC"
+}, {
+  "log_id": "b6ba27db-7345-4808-98d8-4ee223d26946",
+  "transaction_id": "81f4c10a-901d-476e-ad2d-ccf35ca975d5",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d91973875a9f8cca1278db | Cedula: 1069302095",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 16:07:57.244654 UTC"
+}, {
+  "log_id": "1468731f-7ed5-4889-970b-8a95a53540e4",
+  "transaction_id": "a59e5070-2e40-4c4f-b320-ffed0b8673f3",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d924465059e2acb66a727c | Cedula: 1106894826",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 16:37:59.827432 UTC"
+}, {
+  "log_id": "581d3ef5-a325-4526-b7e2-d25f533eb501",
+  "transaction_id": "cbf34942-a613-448e-bdff-eeb9e81f4ebf",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d91cf5efe6185990a8a3eb | Cedula: 1093754222",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 16:08:17.089554 UTC"
+}, {
+  "log_id": "b181b504-55ae-4576-a236-b5b3f3247c71",
+  "transaction_id": "693c09a3-3bbf-45a5-99e9-fddc4deaa961",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d919ac9f1987a06172edb3 | Cedula: 1109301229",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 16:08:31.718173 UTC"
+}, {
+  "log_id": "6e0a9421-60ab-4911-b2d0-c3255ed32a61",
+  "transaction_id": "7006a056-41aa-4e05-98a0-5689d0932cd9",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d940236d3d08d35014524e | Cedula: 1010175668",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 18:38:12.763257 UTC"
+}, {
+  "log_id": "2634a6a3-a270-497b-b79f-247caf5646f6",
+  "transaction_id": "35a1447d-d452-46da-bdb3-6f0a6d0a569f",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d94010b1ae9be91096d296 | Cedula: 1073713632",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 18:38:25.985640 UTC"
+}, {
+  "log_id": "7cec2d8a-2e12-48d5-aa14-f430f5344edb",
+  "transaction_id": "6be22460-7a9e-4a2a-a013-c1ed781f7432",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d8fd58834a46f6ff11e863 | Cedula: 1001339684",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-11 20:07:58.905176 UTC"
+}, {
+  "log_id": "7494ae52-9dc6-4feb-b6cc-78b722825430",
+  "transaction_id": "4b472a33-b172-4d5d-8f68-9ff68b5828a9",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d8f6564635ce230e2ee4d4 | Cedula: 71794953",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-11 19:08:00.318323 UTC"
+}, {
+  "log_id": "dfd98edc-6a32-4c7b-8b51-60bc7ff04e33",
+  "transaction_id": "666a9eb5-525b-4dea-8b4e-5cd2ad905b3e",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d8fd4bfabaf034771e089d | Cedula: 80061922",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-11 19:38:01.941635 UTC"
+}, {
+  "log_id": "4511810a-de0b-4e8f-8559-01fd0baaacc8",
+  "transaction_id": "8c7fbd8a-1683-4974-b171-e95d5162d365",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d904836aaffeb4a8bc1eca | Cedula: 1051663146",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-11 20:37:58.225817 UTC"
+}, {
+  "log_id": "2600f957-f68b-445b-a71a-9c28aec004f0",
+  "transaction_id": "1ef716c5-efc0-4d70-ae16-5d2cbdc8728f",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d9047fd674aa9ce4d2b770 | Cedula: 8501552",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-11 20:38:13.698958 UTC"
+}, {
+  "log_id": "c9f01219-aaec-4bbf-9743-db2525bd358c",
+  "transaction_id": "e32b581a-1cd0-4c96-86e6-55681c71d0df",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d8fd6949867ca79f3dfac4 | Cedula: 1023036151",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-11 20:08:14.480525 UTC"
+}, {
+  "log_id": "fb80da2f-1931-46d3-8b82-765af207eaad",
+  "transaction_id": "45a9760e-50c7-4195-9a15-57889cf56b71",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d8fd5d9ac9d5ff582c77ef | Cedula: 1032386116",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-11 20:08:28.550734 UTC"
+}, {
+  "log_id": "19e77435-6912-4c04-ac49-61e82ec9d9b5",
+  "transaction_id": "9826fe50-a89a-4a06-9c0a-2bcd77a43b6a",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d966ca5408fcb40e207985 | Cedula: 1072703846",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 21:37:57.427456 UTC"
+}, {
+  "log_id": "9f1540ed-c578-40ea-af6d-3027692e2e6c",
+  "transaction_id": "e0aeeef9-1c17-4672-a48c-988463654a8f",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d92b03559bc3c8b8fa7b0f | Cedula: 1006166702",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-11 23:07:57.516515 UTC"
+}, {
+  "log_id": "a629676a-8fb5-47e7-89ef-a69ffaeabcad",
+  "transaction_id": "693c09a3-3bbf-45a5-99e9-fddc4deaa961",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d919ac9f1987a06172edb3 | Cedula: 1109301229",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-11 22:08:28.776852 UTC"
+}, {
+  "log_id": "8ae4782b-8ebe-4bf9-825e-014547ca710e",
+  "transaction_id": "81f4c10a-901d-476e-ad2d-ccf35ca975d5",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d91973875a9f8cca1278db | Cedula: 1069302095",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-11 22:07:59.768466 UTC"
+}, {
+  "log_id": "3507e5b1-a649-4c4e-b844-80ddd343679c",
+  "transaction_id": "cbf34942-a613-448e-bdff-eeb9e81f4ebf",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d91cf5efe6185990a8a3eb | Cedula: 1093754222",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-11 22:08:15.361092 UTC"
+}, {
+  "log_id": "73804afe-56fd-451f-a1d1-9c2a826d7be1",
+  "transaction_id": "a59e5070-2e40-4c4f-b320-ffed0b8673f3",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d924465059e2acb66a727c | Cedula: 1106894826",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-11 22:37:57.489552 UTC"
+}, {
+  "log_id": "1b152d2a-53ab-4a53-b032-eb32d5967cab",
+  "transaction_id": "d05fdc54-e0ba-48ad-8443-6cf39db0a298",
+  "action_type": "RETRY_VALIDATION_BATCH",
+  "payload_sent": "ReportID: 69d97bdccfdbfd89f4ce15bb | Cedula: 1014276877",
+  "response_received": "Aún faltan listas obligatorias.",
+  "status": "WARNING",
+  "timestamp": "2026-04-11 23:08:11.396316 UTC"
+}, {
+  "log_id": "78100147-910b-452a-8cf9-7ad776c2e6a5",
+  "transaction_id": "26cd2662-73ab-491f-95b9-c41baaa4a7f6",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d94040e7823e3583a3a464 | Cedula: 1005552130",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-12 00:37:56.036164 UTC"
+}, {
+  "log_id": "447b857f-9b7c-4c16-91c2-95b7fb411dc9",
+  "transaction_id": "b59bb4e2-fb4e-4373-8453-3b169abcec99",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d935b160394d12ed4439f9 | Cedula: 1007367115",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-11 23:37:56.690813 UTC"
+}, {
+  "log_id": "39194ce6-81f5-491a-9421-e4f44341e7af",
+  "transaction_id": "a03e294b-ed37-4f2e-a445-563249deb458",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d9393d788f6cc3b25745c0 | Cedula: 1023938666",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-12 00:08:14.830038 UTC"
+}, {
+  "log_id": "3e868e26-57b8-4b2c-b566-a77cfafcac32",
+  "transaction_id": "f2b9f2ff-e016-43d3-828b-e660b04207c2",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d93923ac2e666133326c4f | Cedula: 1000123577",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-12 00:07:58.653362 UTC"
+}, {
+  "log_id": "20645d43-a3ba-4316-b248-28a00fb55a51",
+  "transaction_id": "95bf8793-a0c3-421c-af15-f3ea1156ef70",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d92b09b0ef5a0001bc1eca | Cedula: 1082903580",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-11 23:08:24.561277 UTC"
+}, {
+  "log_id": "6f4553ab-531e-41e1-b2c8-4a08640e0930",
+  "transaction_id": "f1914018-85a0-4b38-b21b-448bf50a6b59",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d93c9afa2c230ba4ea7012 | Cedula: 91442838",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-12 00:08:43.182477 UTC"
+}, {
+  "log_id": "318d7d85-f049-4ab6-8344-5e85484ab554",
+  "transaction_id": "7ae4b806-d1cb-4747-bbb5-b1c6540ca781",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d93929704e53b8c9322ec1 | Cedula: 1043438507",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-12 00:08:28.241191 UTC"
+}, {
+  "log_id": "b8c05cbe-4c33-4f7e-b6bb-f3f9b93ee438",
+  "transaction_id": "7006a056-41aa-4e05-98a0-5689d0932cd9",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d940236d3d08d35014524e | Cedula: 1010175668",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-12 00:38:10.915845 UTC"
+}, {
+  "log_id": "2048fffa-bef7-4f28-bbad-de8c1d11d268",
+  "transaction_id": "a220f9f2-74e5-4ce0-9786-43176a54ec93",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d92b3d176ade9eeb42fb89 | Cedula: 1087556501",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-11 23:08:38.118477 UTC"
+}, {
+  "log_id": "0bdf6747-3c2b-49bc-a1ef-a17239f08832",
+  "transaction_id": "35a1447d-d452-46da-bdb3-6f0a6d0a569f",
+  "action_type": "MAX_RETRIES_REACHED",
+  "payload_sent": "ReportID: 69d94010b1ae9be91096d296 | Cedula: 1073713632",
+  "response_received": "Se agotaron los reintentos (4). Se cierra permanentemente como incompleto y se actualiza ATS.",
+  "status": "ERROR",
+  "timestamp": "2026-04-12 00:38:24.380399 UTC"
+}]
