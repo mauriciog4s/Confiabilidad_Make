@@ -1,0 +1,1994 @@
+{
+    "name": "4. Escenario - (Atascados) v4.0",
+    "flow": [
+        {
+            "id": 1,
+            "module": "google-bigquery:writeQuery",
+            "version": 1,
+            "parameters": {
+                "__IMTCONN__": 7812442
+            },
+            "mapper": {
+                "query": "SELECT \n    transaction_id, \n    candidate_id, \n    joborder_id, \n    process_status, \n    risk_level, \n    cedula, \n    document_type, \n    tusdatos_job_id, \n    tusdatos_report_id AS report_id, \n    report_url, \n    CAST(retry_count AS INT64) AS retry_count\nFROM `g4s-shared-tz1.CO_G4S_DATA.Tusdatos_TransactionControl`\nWHERE \n    (process_status IN ('PROCESSING', 'PENDING') AND created_at < TIMESTAMP_SUB(CURRENT_TIMESTAMP(), INTERVAL 3 HOUR))\n    OR \n    (process_status = 'PARTIAL_WAITING_RETRY' AND created_at < TIMESTAMP_SUB(CURRENT_TIMESTAMP(), INTERVAL 30 HOUR))",
+                "dryRun": false,
+                "prefix": "#standardSQL",
+                "project": "g4s-shared-tz1",
+                "timeoutMs": "20000",
+                "useQueryCache": true,
+                "useInt64Timestamp": false
+            },
+            "metadata": {
+                "designer": {
+                    "x": 0,
+                    "y": 150,
+                    "name": "1. Buscar Atascados (BQ)"
+                },
+                "restore": {
+                    "expect": {
+                        "dryRun": {
+                            "mode": "chose"
+                        },
+                        "prefix": {
+                            "mode": "chose",
+                            "label": "Runs the query using standard SQL"
+                        },
+                        "project": {
+                            "mode": "chose",
+                            "label": "G4S Shared TZ1",
+                            "nested": [
+                                {
+                                    "name": "datasetId",
+                                    "type": "select",
+                                    "label": "Default Dataset ID"
+                                }
+                            ]
+                        },
+                        "datasetId": {
+                            "mode": "chose",
+                            "label": "Empty"
+                        },
+                        "useQueryCache": {
+                            "mode": "chose"
+                        },
+                        "useInt64Timestamp": {
+                            "mode": "chose"
+                        }
+                    },
+                    "parameters": {
+                        "__IMTCONN__": {
+                            "data": {
+                                "scoped": "true",
+                                "connection": "google"
+                            },
+                            "label": "Excelenciaop2 (excelencia.op@co.g4s.com)"
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "__IMTCONN__",
+                        "type": "account:google",
+                        "label": "Connection",
+                        "required": true
+                    }
+                ],
+                "expect": [
+                    {
+                        "name": "project",
+                        "type": "select",
+                        "label": "Project ID",
+                        "required": true
+                    },
+                    {
+                        "name": "query",
+                        "type": "text",
+                        "label": "Query",
+                        "required": true
+                    },
+                    {
+                        "name": "prefix",
+                        "type": "select",
+                        "label": "Query Prefix",
+                        "validate": {
+                            "enum": [
+                                "#standardSQL"
+                            ]
+                        }
+                    },
+                    {
+                        "name": "timeoutMs",
+                        "type": "uinteger",
+                        "label": "Timeout (in Milliseconds)"
+                    },
+                    {
+                        "name": "dryRun",
+                        "type": "boolean",
+                        "label": "Dry Run"
+                    },
+                    {
+                        "name": "useQueryCache",
+                        "type": "boolean",
+                        "label": "Use Query Cache"
+                    },
+                    {
+                        "name": "useInt64Timestamp",
+                        "type": "boolean",
+                        "label": "Use Int64 Timestamp"
+                    },
+                    {
+                        "name": "maximumBytesBilled",
+                        "type": "text",
+                        "label": "Maximum Bytes Billed",
+                        "validate": {
+                            "pattern": "^\\d*$"
+                        }
+                    },
+                    {
+                        "name": "datasetId",
+                        "type": "select",
+                        "label": "Default Dataset ID"
+                    }
+                ],
+                "interface": [
+                    {
+                        "name": "kind",
+                        "type": "text",
+                        "label": "Kind"
+                    },
+                    {
+                        "name": "schema",
+                        "spec": [
+                            {
+                                "name": "fields",
+                                "spec": [
+                                    {
+                                        "name": "name",
+                                        "type": "text",
+                                        "label": "Name"
+                                    },
+                                    {
+                                        "name": "type",
+                                        "type": "text",
+                                        "label": "Type"
+                                    },
+                                    {
+                                        "name": "mode",
+                                        "type": "text",
+                                        "label": "Mode"
+                                    }
+                                ],
+                                "type": "array",
+                                "label": "Fields"
+                            }
+                        ],
+                        "type": "collection",
+                        "label": "Schema"
+                    },
+                    {
+                        "name": "jobReference",
+                        "spec": [
+                            {
+                                "name": "projectId",
+                                "type": "text",
+                                "label": "Project ID"
+                            },
+                            {
+                                "name": "jobId",
+                                "type": "text",
+                                "label": "Job ID"
+                            },
+                            {
+                                "name": "location",
+                                "type": "text",
+                                "label": "Location"
+                            }
+                        ],
+                        "type": "collection",
+                        "label": "Job Reference"
+                    },
+                    {
+                        "name": "totalRows",
+                        "type": "uinteger",
+                        "label": "Total Rows"
+                    },
+                    {
+                        "name": "rows",
+                        "spec": [
+                            {
+                                "name": "f",
+                                "spec": [
+                                    {
+                                        "name": "v",
+                                        "type": "text",
+                                        "label": "Value"
+                                    }
+                                ],
+                                "type": "array",
+                                "label": "Fields"
+                            }
+                        ],
+                        "type": "array",
+                        "label": "Rows"
+                    },
+                    {
+                        "name": "totalBytesProcessed",
+                        "type": "uinteger",
+                        "label": "Total Bytes Processed"
+                    },
+                    {
+                        "name": "jobComplete",
+                        "type": "boolean",
+                        "label": "Job Complete"
+                    },
+                    {
+                        "name": "cacheHit",
+                        "type": "boolean",
+                        "label": "Cache Hit"
+                    },
+                    {
+                        "name": "mappableRows",
+                        "spec": {
+                            "type": "collection"
+                        },
+                        "type": "array",
+                        "label": "Mappable Rows"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "module": "builtin:BasicFeeder",
+            "version": 1,
+            "parameters": {},
+            "mapper": {
+                "array": "{{1.mappableRows}}"
+            },
+            "metadata": {
+                "designer": {
+                    "x": 300,
+                    "y": 150,
+                    "name": "2. Iterar Candidatos"
+                }
+            }
+        },
+        {
+            "id": 3,
+            "module": "builtin:BasicRouter",
+            "version": 1,
+            "mapper": null,
+            "metadata": {
+                "designer": {
+                    "x": 600,
+                    "y": 150
+                }
+            },
+            "routes": [
+                {
+                    "flow": [
+                        {
+                            "id": 4,
+                            "module": "google-bigquery:writeQuery",
+                            "version": 1,
+                            "parameters": {
+                                "__IMTCONN__": 7812442
+                            },
+                            "filter": {
+                                "name": "Sin Reporte Generado",
+                                "conditions": [
+                                    [
+                                        {
+                                            "a": "{{2.report_id}}",
+                                            "o": "notexist"
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "a": "{{length(2.report_id)}}",
+                                            "b": "5",
+                                            "o": "number:earlier"
+                                        }
+                                    ]
+                                ]
+                            },
+                            "mapper": {
+                                "query": "UPDATE `g4s-shared-tz1.CO_G4S_DATA.Tusdatos_TransactionControl`\nSET process_status = 'TIMEOUT', last_error_message = CONCAT('Timeout: Atascado en estado ', '{{2.process_status}}'), updated_at = CURRENT_TIMESTAMP()\nWHERE transaction_id = '{{2.transaction_id}}';\n\nINSERT INTO `g4s-shared-tz1.CO_G4S_DATA.Tusdatos_ProcessLogs`\n(log_id, transaction_id, action_type, payload_sent, response_received, status, timestamp)\nVALUES (GENERATE_UUID(), '{{2.transaction_id}}', 'WATCHDOG_TIMEOUT', CONCAT('Estado atascado: ', '{{2.process_status}}'), 'Marcado como TIMEOUT sin reporte. Se cancela el procesamiento y se notifica al ATS.', 'consulta manual', CURRENT_TIMESTAMP());",
+                                "dryRun": false,
+                                "prefix": "#standardSQL",
+                                "project": "g4s-shared-tz1",
+                                "datasetId": "CO_G4S_DATA",
+                                "useQueryCache": true,
+                                "useInt64Timestamp": false
+                            },
+                            "metadata": {
+                                "designer": {
+                                    "x": 900,
+                                    "y": 0,
+                                    "name": "Cerrar en BQ (TIMEOUT)"
+                                },
+                                "restore": {
+                                    "expect": {
+                                        "table": {
+                                            "mode": "chose",
+                                            "label": "Empty"
+                                        },
+                                        "dryRun": {
+                                            "mode": "chose"
+                                        },
+                                        "prefix": {
+                                            "mode": "chose",
+                                            "label": "Runs the query using standard SQL"
+                                        },
+                                        "project": {
+                                            "mode": "chose",
+                                            "label": "g4s-shared-tz1",
+                                            "nested": [
+                                                {
+                                                    "help": "Specifies the **Default Dataset** to assume for any table in **Query** field. If not set, you must specify a table in the format `{datasetId}.{tableId}` in **Query** field.",
+                                                    "name": "datasetId",
+                                                    "type": "select",
+                                                    "label": "Default Dataset ID",
+                                                    "options": {
+                                                        "store": "rpc://google-bigquery/1/listDatasets",
+                                                        "nested": [
+                                                            {
+                                                                "help": "Specifying the **Table ID** will allow the module to generate an interface for mappable rows and improve your mapping experience.",
+                                                                "name": "table",
+                                                                "type": "select",
+                                                                "label": "Table ID",
+                                                                "options": "rpc://google-bigquery/1/listTables"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "datasetId": {
+                                            "mode": "chose",
+                                            "label": "CO_G4S_DATA"
+                                        },
+                                        "useQueryCache": {
+                                            "mode": "chose"
+                                        },
+                                        "useInt64Timestamp": {
+                                            "mode": "chose"
+                                        }
+                                    },
+                                    "parameters": {
+                                        "__IMTCONN__": {
+                                            "data": {
+                                                "scoped": "true",
+                                                "connection": "google"
+                                            },
+                                            "label": "Excelenciaop2 (excelencia.op@co.g4s.com)"
+                                        }
+                                    }
+                                },
+                                "parameters": [
+                                    {
+                                        "name": "__IMTCONN__",
+                                        "type": "account:google",
+                                        "label": "Connection",
+                                        "required": true
+                                    }
+                                ],
+                                "expect": [
+                                    {
+                                        "name": "project",
+                                        "type": "select",
+                                        "label": "Project ID",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "query",
+                                        "type": "text",
+                                        "label": "Query",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "prefix",
+                                        "type": "select",
+                                        "label": "Query Prefix",
+                                        "validate": {
+                                            "enum": [
+                                                "#standardSQL",
+                                                "#legacySQL"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "name": "timeoutMs",
+                                        "type": "uinteger",
+                                        "label": "Timeout (in Milliseconds)"
+                                    },
+                                    {
+                                        "name": "dryRun",
+                                        "type": "boolean",
+                                        "label": "Dry Run"
+                                    },
+                                    {
+                                        "name": "useQueryCache",
+                                        "type": "boolean",
+                                        "label": "Use Query Cache"
+                                    },
+                                    {
+                                        "name": "useInt64Timestamp",
+                                        "type": "boolean",
+                                        "label": "Use Int64 Timestamp"
+                                    },
+                                    {
+                                        "name": "maximumBytesBilled",
+                                        "type": "text",
+                                        "label": "Maximum Bytes Billed",
+                                        "validate": {
+                                            "pattern": "^\\d*$"
+                                        }
+                                    },
+                                    {
+                                        "name": "project",
+                                        "type": "select",
+                                        "label": "Project ID",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "query",
+                                        "type": "text",
+                                        "label": "Query",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "prefix",
+                                        "type": "select",
+                                        "label": "Query Prefix",
+                                        "validate": {
+                                            "enum": [
+                                                "#standardSQL",
+                                                "#legacySQL"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "name": "timeoutMs",
+                                        "type": "uinteger",
+                                        "label": "Timeout (in Milliseconds)"
+                                    },
+                                    {
+                                        "name": "dryRun",
+                                        "type": "boolean",
+                                        "label": "Dry Run"
+                                    },
+                                    {
+                                        "name": "useQueryCache",
+                                        "type": "boolean",
+                                        "label": "Use Query Cache"
+                                    },
+                                    {
+                                        "name": "useInt64Timestamp",
+                                        "type": "boolean",
+                                        "label": "Use Int64 Timestamp"
+                                    },
+                                    {
+                                        "name": "maximumBytesBilled",
+                                        "type": "text",
+                                        "label": "Maximum Bytes Billed",
+                                        "validate": {
+                                            "pattern": "^\\d*$"
+                                        }
+                                    },
+                                    {
+                                        "name": "datasetId",
+                                        "type": "select",
+                                        "label": "Default Dataset ID"
+                                    },
+                                    {
+                                        "name": "table",
+                                        "type": "select",
+                                        "label": "Table ID"
+                                    }
+                                ],
+                                "interface": [
+                                    {
+                                        "name": "kind",
+                                        "type": "text",
+                                        "label": "Kind"
+                                    },
+                                    {
+                                        "name": "schema",
+                                        "spec": [
+                                            {
+                                                "name": "fields",
+                                                "spec": [
+                                                    {
+                                                        "name": "name",
+                                                        "type": "text",
+                                                        "label": "Name"
+                                                    },
+                                                    {
+                                                        "name": "type",
+                                                        "type": "text",
+                                                        "label": "Type"
+                                                    },
+                                                    {
+                                                        "name": "mode",
+                                                        "type": "text",
+                                                        "label": "Mode"
+                                                    }
+                                                ],
+                                                "type": "array",
+                                                "label": "Fields"
+                                            }
+                                        ],
+                                        "type": "collection",
+                                        "label": "Schema"
+                                    },
+                                    {
+                                        "name": "jobReference",
+                                        "spec": [
+                                            {
+                                                "name": "projectId",
+                                                "type": "text",
+                                                "label": "Project ID"
+                                            },
+                                            {
+                                                "name": "jobId",
+                                                "type": "text",
+                                                "label": "Job ID"
+                                            },
+                                            {
+                                                "name": "location",
+                                                "type": "text",
+                                                "label": "Location"
+                                            }
+                                        ],
+                                        "type": "collection",
+                                        "label": "Job Reference"
+                                    },
+                                    {
+                                        "name": "totalRows",
+                                        "type": "uinteger",
+                                        "label": "Total Rows"
+                                    },
+                                    {
+                                        "name": "rows",
+                                        "spec": [
+                                            {
+                                                "name": "f",
+                                                "spec": [
+                                                    {
+                                                        "name": "v",
+                                                        "type": "text",
+                                                        "label": "Value"
+                                                    }
+                                                ],
+                                                "type": "array",
+                                                "label": "Fields"
+                                            }
+                                        ],
+                                        "type": "array",
+                                        "label": "Rows"
+                                    },
+                                    {
+                                        "name": "totalBytesProcessed",
+                                        "type": "uinteger",
+                                        "label": "Total Bytes Processed"
+                                    },
+                                    {
+                                        "name": "jobComplete",
+                                        "type": "boolean",
+                                        "label": "Job Complete"
+                                    },
+                                    {
+                                        "name": "cacheHit",
+                                        "type": "boolean",
+                                        "label": "Cache Hit"
+                                    },
+                                    {
+                                        "name": "mappableRows",
+                                        "spec": {
+                                            "type": "collection"
+                                        },
+                                        "type": "array",
+                                        "label": "Mappable Rows"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "module": "http:MakeRequest",
+                            "version": 4,
+                            "parameters": {
+                                "tlsType": "",
+                                "proxyKeychain": "",
+                                "authenticationType": "noAuth"
+                            },
+                            "mapper": {
+                                "url": "https://atscareers.g4s.com/index.php?m=careers&a=candidatejostatusupdate",
+                                "method": "post",
+                                "contentType": "urlEncoded",
+                                "shareCookies": false,
+                                "parseResponse": true,
+                                "allowRedirects": true,
+                                "stopOnHttpError": true,
+                                "urlEncodedBodyContent": [
+                                    {
+                                        "name": "candidateId",
+                                        "value": "{{2.candidate_id}}"
+                                    },
+                                    {
+                                        "name": "joborderId",
+                                        "value": "{{2.joborder_id}}"
+                                    },
+                                    {
+                                        "name": "statusId",
+                                        "value": "1018"
+                                    },
+                                    {
+                                        "name": "activityNote",
+                                        "value": "⚠️ SOLICITUD CANCELADA: Lo sentimos, tusdatos no ha podido completar tu solicitud, reintentalo manualmente. (Estado: {{2.process_status}}) y no generó un reporte. Reintento manual requerido. Joborder: {{2.joborder_id}}"
+                                    }
+                                ],
+                                "requestCompressedContent": true
+                            },
+                            "metadata": {
+                                "designer": {
+                                    "x": 1200,
+                                    "y": 0,
+                                    "name": "Notificar ATS (Sin reporte)"
+                                },
+                                "restore": {
+                                    "expect": {
+                                        "method": {
+                                            "mode": "chose",
+                                            "label": "POST"
+                                        },
+                                        "headers": {
+                                            "mode": "chose"
+                                        },
+                                        "contentType": {
+                                            "label": "application/x-www-form-urlencodedEnter form data as key-value pairs encoded in the URL style."
+                                        },
+                                        "shareCookies": {
+                                            "mode": "chose"
+                                        },
+                                        "parseResponse": {
+                                            "mode": "chose"
+                                        },
+                                        "allowRedirects": {
+                                            "mode": "chose"
+                                        },
+                                        "paginationType": {
+                                            "label": "Empty"
+                                        },
+                                        "queryParameters": {
+                                            "mode": "chose"
+                                        },
+                                        "stopOnHttpError": {
+                                            "mode": "chose"
+                                        },
+                                        "urlEncodedBodyContent": {
+                                            "mode": "chose",
+                                            "items": [
+                                                null,
+                                                null,
+                                                null,
+                                                null
+                                            ]
+                                        },
+                                        "requestCompressedContent": {
+                                            "mode": "chose"
+                                        }
+                                    },
+                                    "parameters": {
+                                        "tlsType": {
+                                            "label": "Empty"
+                                        },
+                                        "proxyKeychain": {
+                                            "label": "Choose a key"
+                                        },
+                                        "authenticationType": {
+                                            "label": "No authenticationUse when no credentials are required for the request."
+                                        }
+                                    }
+                                },
+                                "parameters": [
+                                    {
+                                        "name": "authenticationType",
+                                        "type": "select",
+                                        "label": "Authentication type",
+                                        "required": true,
+                                        "validate": {
+                                            "enum": [
+                                                "noAuth",
+                                                "apiKey",
+                                                "basicAuth",
+                                                "oAuth"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "name": "tlsType",
+                                        "type": "select",
+                                        "label": "Transport layer security (TLS)",
+                                        "validate": {
+                                            "enum": [
+                                                "mTls",
+                                                "tls"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "name": "proxyKeychain",
+                                        "type": "keychain:proxy",
+                                        "label": "Proxy"
+                                    }
+                                ],
+                                "expect": [
+                                    {
+                                        "name": "url",
+                                        "type": "url",
+                                        "label": "URL",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "method",
+                                        "type": "select",
+                                        "label": "Method",
+                                        "required": true,
+                                        "validate": {
+                                            "enum": [
+                                                "get",
+                                                "head",
+                                                "post",
+                                                "put",
+                                                "patch",
+                                                "delete",
+                                                "options"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "name": "headers",
+                                        "spec": {
+                                            "name": "value",
+                                            "spec": [
+                                                {
+                                                    "name": "name",
+                                                    "type": "text",
+                                                    "label": "Name",
+                                                    "required": true,
+                                                    "validate": {
+                                                        "pattern": "^[-!#$%&'*+.^_`|~0-9A-Za-z]+$"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "value",
+                                                    "type": "text",
+                                                    "label": "Value"
+                                                }
+                                            ],
+                                            "type": "collection",
+                                            "label": "Header"
+                                        },
+                                        "type": "array",
+                                        "label": "Headers"
+                                    },
+                                    {
+                                        "name": "queryParameters",
+                                        "spec": {
+                                            "name": "value",
+                                            "spec": [
+                                                {
+                                                    "name": "name",
+                                                    "type": "text",
+                                                    "label": "Name",
+                                                    "required": true
+                                                },
+                                                {
+                                                    "name": "value",
+                                                    "type": "text",
+                                                    "label": "Value"
+                                                }
+                                            ],
+                                            "type": "collection",
+                                            "label": "Parameter"
+                                        },
+                                        "type": "array",
+                                        "label": "Query parameters"
+                                    },
+                                    {
+                                        "name": "contentType",
+                                        "type": "select",
+                                        "label": "Body content type",
+                                        "validate": {
+                                            "enum": [
+                                                "json",
+                                                "multipart",
+                                                "urlEncoded",
+                                                "custom"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "name": "parseResponse",
+                                        "type": "boolean",
+                                        "label": "Parse response",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "stopOnHttpError",
+                                        "type": "boolean",
+                                        "label": "Return error if HTTP request fails",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "timeout",
+                                        "type": "uinteger",
+                                        "label": "Timeout",
+                                        "validate": {
+                                            "max": 300,
+                                            "min": 1
+                                        }
+                                    },
+                                    {
+                                        "name": "allowRedirects",
+                                        "type": "boolean",
+                                        "label": "Allow redirects",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "shareCookies",
+                                        "type": "boolean",
+                                        "label": "Share cookies with other HTTP modules",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "requestCompressedContent",
+                                        "type": "boolean",
+                                        "label": "Request compressed content",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "urlEncodedBodyContent",
+                                        "spec": {
+                                            "name": "value",
+                                            "spec": [
+                                                {
+                                                    "name": "name",
+                                                    "type": "text",
+                                                    "label": "Name",
+                                                    "required": true
+                                                },
+                                                {
+                                                    "name": "value",
+                                                    "type": "text",
+                                                    "label": "Value"
+                                                }
+                                            ],
+                                            "type": "collection",
+                                            "label": "Field"
+                                        },
+                                        "type": "array",
+                                        "label": "Body content",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "paginationType",
+                                        "type": "select",
+                                        "label": "Pagination type",
+                                        "validate": {
+                                            "enum": [
+                                                "offsetBased",
+                                                "pageBased",
+                                                "urlBased",
+                                                "tokenBased"
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "interface": [
+                                    {
+                                        "name": "data",
+                                        "type": "any",
+                                        "label": "Data"
+                                    },
+                                    {
+                                        "name": "statusCode",
+                                        "type": "number",
+                                        "label": "Status Code"
+                                    },
+                                    {
+                                        "name": "headers",
+                                        "spec": [
+                                            {
+                                                "name": "content-length",
+                                                "type": "text",
+                                                "label": "Content-Length"
+                                            },
+                                            {
+                                                "name": "content-encoding",
+                                                "type": "text",
+                                                "label": "Content-Encoding"
+                                            },
+                                            {
+                                                "name": "content-type",
+                                                "type": "text",
+                                                "label": "Content-Type"
+                                            },
+                                            {
+                                                "name": "server",
+                                                "type": "text",
+                                                "label": "Server"
+                                            },
+                                            {
+                                                "name": "cache-control",
+                                                "type": "text",
+                                                "label": "Cache-Control"
+                                            },
+                                            {
+                                                "name": "set-cookie",
+                                                "spec": {
+                                                    "type": "text"
+                                                },
+                                                "type": "array",
+                                                "label": "Set-Cookie"
+                                            }
+                                        ],
+                                        "type": "collection",
+                                        "label": "Headers"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "flow": [
+                        {
+                            "id": 6,
+                            "module": "http:MakeRequest",
+                            "version": 4,
+                            "parameters": {
+                                "tlsType": "",
+                                "proxyKeychain": "",
+                                "authenticationType": "noAuth"
+                            },
+                            "filter": {
+                                "name": "Con Reporte Parcial",
+                                "conditions": [
+                                    [
+                                        {
+                                            "a": "{{2.report_id}}",
+                                            "o": "exist"
+                                        },
+                                        {
+                                            "a": "{{length(2.report_id)}}",
+                                            "b": "5",
+                                            "o": "number:greater"
+                                        }
+                                    ]
+                                ]
+                            },
+                            "mapper": {
+                                "url": "https://dash-board.tusdatos.co/api/v2/{{if(2.document_type = \"NIT\"; \"report_nit_pdf\"; \"report_pdf\")}}/{{2.report_id}}",
+                                "method": "get",
+                                "headers": [
+                                    {
+                                        "name": "Authorization",
+                                        "value": "Basic ZXhjZWxlbmNpYS5vcEBjby5nNHMuY29tOkV4YzNsM25jaWEub3A="
+                                    }
+                                ],
+                                "timeout": "120",
+                                "shareCookies": false,
+                                "parseResponse": false,
+                                "allowRedirects": true,
+                                "stopOnHttpError": true,
+                                "requestCompressedContent": true
+                            },
+                            "metadata": {
+                                "designer": {
+                                    "x": 900,
+                                    "y": 300,
+                                    "name": "Descargar PDF Parcial"
+                                },
+                                "restore": {
+                                    "expect": {
+                                        "method": {
+                                            "mode": "chose",
+                                            "label": "GET"
+                                        },
+                                        "headers": {
+                                            "mode": "chose",
+                                            "items": [
+                                                null
+                                            ]
+                                        },
+                                        "contentType": {
+                                            "label": "Empty"
+                                        },
+                                        "shareCookies": {
+                                            "mode": "chose"
+                                        },
+                                        "parseResponse": {
+                                            "mode": "chose"
+                                        },
+                                        "allowRedirects": {
+                                            "mode": "chose"
+                                        },
+                                        "queryParameters": {
+                                            "mode": "chose"
+                                        },
+                                        "stopOnHttpError": {
+                                            "mode": "chose"
+                                        },
+                                        "requestCompressedContent": {
+                                            "mode": "chose"
+                                        }
+                                    },
+                                    "parameters": {
+                                        "tlsType": {
+                                            "label": "Empty"
+                                        },
+                                        "proxyKeychain": {
+                                            "label": "Choose a key"
+                                        },
+                                        "authenticationType": {
+                                            "label": "No authenticationUse when no credentials are required for the request."
+                                        }
+                                    }
+                                },
+                                "parameters": [
+                                    {
+                                        "name": "authenticationType",
+                                        "type": "select",
+                                        "label": "Authentication type",
+                                        "required": true,
+                                        "validate": {
+                                            "enum": [
+                                                "noAuth",
+                                                "apiKey",
+                                                "basicAuth",
+                                                "oAuth"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "name": "tlsType",
+                                        "type": "select",
+                                        "label": "Transport layer security (TLS)",
+                                        "validate": {
+                                            "enum": [
+                                                "mTls",
+                                                "tls"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "name": "proxyKeychain",
+                                        "type": "keychain:proxy",
+                                        "label": "Proxy"
+                                    }
+                                ],
+                                "expect": [
+                                    {
+                                        "name": "url",
+                                        "type": "url",
+                                        "label": "URL",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "method",
+                                        "type": "select",
+                                        "label": "Method",
+                                        "required": true,
+                                        "validate": {
+                                            "enum": [
+                                                "get",
+                                                "head",
+                                                "post",
+                                                "put",
+                                                "patch",
+                                                "delete",
+                                                "options"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "name": "headers",
+                                        "spec": {
+                                            "name": "value",
+                                            "spec": [
+                                                {
+                                                    "name": "name",
+                                                    "type": "text",
+                                                    "label": "Name",
+                                                    "required": true,
+                                                    "validate": {
+                                                        "pattern": "^[-!#$%&'*+.^_`|~0-9A-Za-z]+$"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "value",
+                                                    "type": "text",
+                                                    "label": "Value"
+                                                }
+                                            ],
+                                            "type": "collection",
+                                            "label": "Header"
+                                        },
+                                        "type": "array",
+                                        "label": "Headers"
+                                    },
+                                    {
+                                        "name": "queryParameters",
+                                        "spec": {
+                                            "name": "value",
+                                            "spec": [
+                                                {
+                                                    "name": "name",
+                                                    "type": "text",
+                                                    "label": "Name",
+                                                    "required": true
+                                                },
+                                                {
+                                                    "name": "value",
+                                                    "type": "text",
+                                                    "label": "Value"
+                                                }
+                                            ],
+                                            "type": "collection",
+                                            "label": "Parameter"
+                                        },
+                                        "type": "array",
+                                        "label": "Query parameters"
+                                    },
+                                    {
+                                        "name": "contentType",
+                                        "type": "select",
+                                        "label": "Body content type",
+                                        "validate": {
+                                            "enum": [
+                                                "json",
+                                                "multipart",
+                                                "urlEncoded",
+                                                "custom"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "name": "parseResponse",
+                                        "type": "boolean",
+                                        "label": "Parse response",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "stopOnHttpError",
+                                        "type": "boolean",
+                                        "label": "Return error if HTTP request fails",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "timeout",
+                                        "type": "uinteger",
+                                        "label": "Timeout",
+                                        "validate": {
+                                            "max": 300,
+                                            "min": 1
+                                        }
+                                    },
+                                    {
+                                        "name": "allowRedirects",
+                                        "type": "boolean",
+                                        "label": "Allow redirects",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "shareCookies",
+                                        "type": "boolean",
+                                        "label": "Share cookies with other HTTP modules",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "requestCompressedContent",
+                                        "type": "boolean",
+                                        "label": "Request compressed content",
+                                        "required": true
+                                    }
+                                ],
+                                "interface": [
+                                    {
+                                        "name": "data",
+                                        "type": "any",
+                                        "label": "Data"
+                                    },
+                                    {
+                                        "name": "statusCode",
+                                        "type": "number",
+                                        "label": "Status Code"
+                                    },
+                                    {
+                                        "name": "headers",
+                                        "spec": [
+                                            {
+                                                "name": "content-length",
+                                                "type": "text",
+                                                "label": "Content-Length"
+                                            },
+                                            {
+                                                "name": "content-encoding",
+                                                "type": "text",
+                                                "label": "Content-Encoding"
+                                            },
+                                            {
+                                                "name": "content-type",
+                                                "type": "text",
+                                                "label": "Content-Type"
+                                            },
+                                            {
+                                                "name": "server",
+                                                "type": "text",
+                                                "label": "Server"
+                                            },
+                                            {
+                                                "name": "cache-control",
+                                                "type": "text",
+                                                "label": "Cache-Control"
+                                            },
+                                            {
+                                                "name": "set-cookie",
+                                                "spec": {
+                                                    "type": "text"
+                                                },
+                                                "type": "array",
+                                                "label": "Set-Cookie"
+                                            }
+                                        ],
+                                        "type": "collection",
+                                        "label": "Headers"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "module": "google-drive:uploadAFile",
+                            "version": 4,
+                            "parameters": {
+                                "__IMTCONN__": 8041246
+                            },
+                            "mapper": {
+                                "data": "{{6.data}}",
+                                "select": "value",
+                                "convert": false,
+                                "filename": "Reporte_TD_Cancelado_{{2.candidate_id}}_{{2.report_id}}.pdf",
+                                "folderId": "1YwUS4WE2hQN-o2GALY2YLDH_Hfjeum9B",
+                                "destination": "share"
+                            },
+                            "metadata": {
+                                "designer": {
+                                    "x": 1200,
+                                    "y": 300,
+                                    "name": "Subir a Drive"
+                                },
+                                "restore": {
+                                    "expect": {
+                                        "select": {
+                                            "label": "Select from the list"
+                                        },
+                                        "folderId": {
+                                            "mode": "chose",
+                                            "path": [
+                                                "1YwUS4WE2hQN-o2GALY2YLDH_Hfjeum9B"
+                                            ]
+                                        },
+                                        "destination": {
+                                            "label": "Shared With Me"
+                                        }
+                                    },
+                                    "parameters": {
+                                        "__IMTCONN__": {
+                                            "data": {
+                                                "scoped": "true",
+                                                "connection": "google-restricted"
+                                            },
+                                            "label": "My Google Restricted connection"
+                                        }
+                                    }
+                                },
+                                "parameters": [
+                                    {
+                                        "name": "__IMTCONN__",
+                                        "type": "account:google-restricted",
+                                        "label": "Connection",
+                                        "required": true
+                                    }
+                                ],
+                                "expect": [
+                                    {
+                                        "name": "select",
+                                        "type": "select",
+                                        "label": "Enter a Folder ID",
+                                        "required": true,
+                                        "validate": {
+                                            "enum": [
+                                                "map",
+                                                "value"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "name": "title",
+                                        "type": "text",
+                                        "label": "New File Name"
+                                    },
+                                    {
+                                        "name": "filename",
+                                        "type": "text",
+                                        "label": "File Name",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "data",
+                                        "type": "buffer",
+                                        "label": "Data",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "convert",
+                                        "type": "boolean",
+                                        "label": "Convert a File",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "destination",
+                                        "type": "select",
+                                        "label": "New Drive Location",
+                                        "required": true,
+                                        "validate": {
+                                            "enum": [
+                                                "drive",
+                                                "share",
+                                                "team"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "name": "folderId",
+                                        "type": "folder",
+                                        "label": "New Folder Location",
+                                        "required": true
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "module": "google-bigquery:writeQuery",
+                            "version": 1,
+                            "parameters": {
+                                "__IMTCONN__": 7812442
+                            },
+                            "mapper": {
+                                "query": "UPDATE `g4s-shared-tz1.CO_G4S_DATA.Tusdatos_TransactionControl`\nSET process_status = 'TIMEOUT', report_url = '{{7.webViewLink}}', last_error_message = CONCAT('Timeout: Atascado en estado ', '{{2.process_status}}'), updated_at = CURRENT_TIMESTAMP()\nWHERE transaction_id = '{{2.transaction_id}}';\n\nINSERT INTO `g4s-shared-tz1.CO_G4S_DATA.Tusdatos_ProcessLogs`\n(log_id, transaction_id, action_type, payload_sent, response_received, status, timestamp)\nVALUES (GENERATE_UUID(), '{{2.transaction_id}}', 'WATCHDOG_TIMEOUT', CONCAT('Estado atascado: ', '{{2.process_status}}'), 'Marcado como TIMEOUT. Se cancela el procesamiento y se adjunta reporte parcial en ATS.', 'consulta manual', CURRENT_TIMESTAMP());",
+                                "dryRun": false,
+                                "prefix": "#standardSQL",
+                                "project": "g4s-shared-tz1",
+                                "datasetId": "CO_G4S_DATA",
+                                "useQueryCache": true,
+                                "useInt64Timestamp": false
+                            },
+                            "metadata": {
+                                "designer": {
+                                    "x": 1500,
+                                    "y": 300,
+                                    "name": "Cerrar en BQ (Con Reporte)"
+                                },
+                                "restore": {
+                                    "expect": {
+                                        "table": {
+                                            "mode": "chose"
+                                        },
+                                        "dryRun": {
+                                            "mode": "chose"
+                                        },
+                                        "prefix": {
+                                            "mode": "chose",
+                                            "label": "Runs the query using standard SQL"
+                                        },
+                                        "project": {
+                                            "mode": "chose",
+                                            "label": "G4S Shared TZ1",
+                                            "nested": [
+                                                {
+                                                    "help": "Specifies the **Default Dataset** to assume for any table in **Query** field. If not set, you must specify a table in the format `{datasetId}.{tableId}` in **Query** field.",
+                                                    "name": "datasetId",
+                                                    "type": "select",
+                                                    "label": "Default Dataset ID",
+                                                    "options": {
+                                                        "store": "rpc://google-bigquery/1/listDatasets",
+                                                        "nested": [
+                                                            {
+                                                                "help": "Specifying the **Table ID** will allow the module to generate an interface for mappable rows and improve your mapping experience.",
+                                                                "name": "table",
+                                                                "type": "select",
+                                                                "label": "Table ID",
+                                                                "options": "rpc://google-bigquery/1/listTables"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "datasetId": {
+                                            "mode": "chose",
+                                            "label": "CO_G4S_DATA"
+                                        },
+                                        "useQueryCache": {
+                                            "mode": "chose"
+                                        },
+                                        "useInt64Timestamp": {
+                                            "mode": "chose"
+                                        }
+                                    },
+                                    "parameters": {
+                                        "__IMTCONN__": {
+                                            "data": {
+                                                "scoped": "true",
+                                                "connection": "google"
+                                            },
+                                            "label": "Excelenciaop2 (excelencia.op@co.g4s.com)"
+                                        }
+                                    }
+                                },
+                                "parameters": [
+                                    {
+                                        "name": "__IMTCONN__",
+                                        "type": "account:google",
+                                        "label": "Connection",
+                                        "required": true
+                                    }
+                                ],
+                                "expect": [
+                                    {
+                                        "name": "project",
+                                        "type": "select",
+                                        "label": "Project ID",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "query",
+                                        "type": "text",
+                                        "label": "Query",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "prefix",
+                                        "type": "select",
+                                        "label": "Query Prefix",
+                                        "validate": {
+                                            "enum": [
+                                                "#standardSQL",
+                                                "#legacySQL"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "name": "timeoutMs",
+                                        "type": "uinteger",
+                                        "label": "Timeout (in Milliseconds)"
+                                    },
+                                    {
+                                        "name": "dryRun",
+                                        "type": "boolean",
+                                        "label": "Dry Run"
+                                    },
+                                    {
+                                        "name": "useQueryCache",
+                                        "type": "boolean",
+                                        "label": "Use Query Cache"
+                                    },
+                                    {
+                                        "name": "useInt64Timestamp",
+                                        "type": "boolean",
+                                        "label": "Use Int64 Timestamp"
+                                    },
+                                    {
+                                        "name": "maximumBytesBilled",
+                                        "type": "text",
+                                        "label": "Maximum Bytes Billed",
+                                        "validate": {
+                                            "pattern": "^\\d*$"
+                                        }
+                                    },
+                                    {
+                                        "name": "datasetId",
+                                        "type": "select",
+                                        "label": "Default Dataset ID"
+                                    },
+                                    {
+                                        "name": "table",
+                                        "type": "select",
+                                        "label": "Table ID"
+                                    }
+                                ],
+                                "interface": [
+                                    {
+                                        "name": "kind",
+                                        "type": "text",
+                                        "label": "Kind"
+                                    },
+                                    {
+                                        "name": "schema",
+                                        "spec": [
+                                            {
+                                                "name": "fields",
+                                                "spec": [
+                                                    {
+                                                        "name": "name",
+                                                        "type": "text",
+                                                        "label": "Name"
+                                                    },
+                                                    {
+                                                        "name": "type",
+                                                        "type": "text",
+                                                        "label": "Type"
+                                                    },
+                                                    {
+                                                        "name": "mode",
+                                                        "type": "text",
+                                                        "label": "Mode"
+                                                    }
+                                                ],
+                                                "type": "array",
+                                                "label": "Fields"
+                                            }
+                                        ],
+                                        "type": "collection",
+                                        "label": "Schema"
+                                    },
+                                    {
+                                        "name": "jobReference",
+                                        "spec": [
+                                            {
+                                                "name": "projectId",
+                                                "type": "text",
+                                                "label": "Project ID"
+                                            },
+                                            {
+                                                "name": "jobId",
+                                                "type": "text",
+                                                "label": "Job ID"
+                                            },
+                                            {
+                                                "name": "location",
+                                                "type": "text",
+                                                "label": "Location"
+                                            }
+                                        ],
+                                        "type": "collection",
+                                        "label": "Job Reference"
+                                    },
+                                    {
+                                        "name": "totalRows",
+                                        "type": "uinteger",
+                                        "label": "Total Rows"
+                                    },
+                                    {
+                                        "name": "rows",
+                                        "spec": [
+                                            {
+                                                "name": "f",
+                                                "spec": [
+                                                    {
+                                                        "name": "v",
+                                                        "type": "text",
+                                                        "label": "Value"
+                                                    }
+                                                ],
+                                                "type": "array",
+                                                "label": "Fields"
+                                            }
+                                        ],
+                                        "type": "array",
+                                        "label": "Rows"
+                                    },
+                                    {
+                                        "name": "totalBytesProcessed",
+                                        "type": "uinteger",
+                                        "label": "Total Bytes Processed"
+                                    },
+                                    {
+                                        "name": "jobComplete",
+                                        "type": "boolean",
+                                        "label": "Job Complete"
+                                    },
+                                    {
+                                        "name": "cacheHit",
+                                        "type": "boolean",
+                                        "label": "Cache Hit"
+                                    },
+                                    {
+                                        "name": "mappableRows",
+                                        "spec": {
+                                            "type": "collection"
+                                        },
+                                        "type": "array",
+                                        "label": "Mappable Rows"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "module": "http:MakeRequest",
+                            "version": 4,
+                            "parameters": {
+                                "tlsType": "",
+                                "proxyKeychain": "",
+                                "authenticationType": "noAuth"
+                            },
+                            "mapper": {
+                                "url": "https://atscareers.g4s.com/index.php?m=careers&a=candidatejostatusupdate",
+                                "method": "post",
+                                "contentType": "urlEncoded",
+                                "shareCookies": false,
+                                "parseResponse": true,
+                                "allowRedirects": true,
+                                "stopOnHttpError": true,
+                                "urlEncodedBodyContent": [
+                                    {
+                                        "name": "candidateId",
+                                        "value": "{{2.candidate_id}}"
+                                    },
+                                    {
+                                        "name": "joborderId",
+                                        "value": "{{2.joborder_id}}"
+                                    },
+                                    {
+                                        "name": "statusId",
+                                        "value": "{{if(lower(2.risk_level) = \"alto\"; 919; if(lower(2.risk_level) = \"medio\"; 1018; 912))}}"
+                                    },
+                                    {
+                                        "name": "activityNote",
+                                        "value": "⚠️ SOLICITUD CANCELADA: Lo sentimos, tusdatos no ha podido completar tu solicitud, reintentalo manualmente. Riesgo previo: {{ifempty(2.risk_level; \"Ninguno\")}}. Ver reporte parcial: {{replace(7.webViewLink; \"https://\"; emptystring)}} Joborder: {{2.joborder_id}}"
+                                    }
+                                ],
+                                "requestCompressedContent": true
+                            },
+                            "metadata": {
+                                "designer": {
+                                    "x": 1800,
+                                    "y": 300,
+                                    "name": "Notificar ATS (Con reporte)"
+                                },
+                                "restore": {
+                                    "expect": {
+                                        "method": {
+                                            "mode": "chose",
+                                            "label": "POST"
+                                        },
+                                        "headers": {
+                                            "mode": "chose"
+                                        },
+                                        "contentType": {
+                                            "label": "application/x-www-form-urlencodedEnter form data as key-value pairs encoded in the URL style."
+                                        },
+                                        "shareCookies": {
+                                            "mode": "chose"
+                                        },
+                                        "parseResponse": {
+                                            "mode": "chose"
+                                        },
+                                        "allowRedirects": {
+                                            "mode": "chose"
+                                        },
+                                        "paginationType": {
+                                            "label": "Empty"
+                                        },
+                                        "queryParameters": {
+                                            "mode": "chose"
+                                        },
+                                        "stopOnHttpError": {
+                                            "mode": "chose"
+                                        },
+                                        "urlEncodedBodyContent": {
+                                            "mode": "chose",
+                                            "items": [
+                                                null,
+                                                null,
+                                                null,
+                                                null
+                                            ]
+                                        },
+                                        "requestCompressedContent": {
+                                            "mode": "chose"
+                                        }
+                                    },
+                                    "parameters": {
+                                        "tlsType": {
+                                            "label": "Empty"
+                                        },
+                                        "proxyKeychain": {
+                                            "label": "Choose a key"
+                                        },
+                                        "authenticationType": {
+                                            "label": "No authenticationUse when no credentials are required for the request."
+                                        }
+                                    }
+                                },
+                                "parameters": [
+                                    {
+                                        "name": "authenticationType",
+                                        "type": "select",
+                                        "label": "Authentication type",
+                                        "required": true,
+                                        "validate": {
+                                            "enum": [
+                                                "noAuth",
+                                                "apiKey",
+                                                "basicAuth",
+                                                "oAuth"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "name": "tlsType",
+                                        "type": "select",
+                                        "label": "Transport layer security (TLS)",
+                                        "validate": {
+                                            "enum": [
+                                                "mTls",
+                                                "tls"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "name": "proxyKeychain",
+                                        "type": "keychain:proxy",
+                                        "label": "Proxy"
+                                    }
+                                ],
+                                "expect": [
+                                    {
+                                        "name": "url",
+                                        "type": "url",
+                                        "label": "URL",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "method",
+                                        "type": "select",
+                                        "label": "Method",
+                                        "required": true,
+                                        "validate": {
+                                            "enum": [
+                                                "get",
+                                                "head",
+                                                "post",
+                                                "put",
+                                                "patch",
+                                                "delete",
+                                                "options"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "name": "headers",
+                                        "spec": {
+                                            "name": "value",
+                                            "spec": [
+                                                {
+                                                    "name": "name",
+                                                    "type": "text",
+                                                    "label": "Name",
+                                                    "required": true,
+                                                    "validate": {
+                                                        "pattern": "^[-!#$%&'*+.^_`|~0-9A-Za-z]+$"
+                                                    }
+                                                },
+                                                {
+                                                    "name": "value",
+                                                    "type": "text",
+                                                    "label": "Value"
+                                                }
+                                            ],
+                                            "type": "collection",
+                                            "label": "Header"
+                                        },
+                                        "type": "array",
+                                        "label": "Headers"
+                                    },
+                                    {
+                                        "name": "queryParameters",
+                                        "spec": {
+                                            "name": "value",
+                                            "spec": [
+                                                {
+                                                    "name": "name",
+                                                    "type": "text",
+                                                    "label": "Name",
+                                                    "required": true
+                                                },
+                                                {
+                                                    "name": "value",
+                                                    "type": "text",
+                                                    "label": "Value"
+                                                }
+                                            ],
+                                            "type": "collection",
+                                            "label": "Parameter"
+                                        },
+                                        "type": "array",
+                                        "label": "Query parameters"
+                                    },
+                                    {
+                                        "name": "contentType",
+                                        "type": "select",
+                                        "label": "Body content type",
+                                        "validate": {
+                                            "enum": [
+                                                "json",
+                                                "multipart",
+                                                "urlEncoded",
+                                                "custom"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "name": "parseResponse",
+                                        "type": "boolean",
+                                        "label": "Parse response",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "stopOnHttpError",
+                                        "type": "boolean",
+                                        "label": "Return error if HTTP request fails",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "timeout",
+                                        "type": "uinteger",
+                                        "label": "Timeout",
+                                        "validate": {
+                                            "max": 300,
+                                            "min": 1
+                                        }
+                                    },
+                                    {
+                                        "name": "allowRedirects",
+                                        "type": "boolean",
+                                        "label": "Allow redirects",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "shareCookies",
+                                        "type": "boolean",
+                                        "label": "Share cookies with other HTTP modules",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "requestCompressedContent",
+                                        "type": "boolean",
+                                        "label": "Request compressed content",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "urlEncodedBodyContent",
+                                        "spec": {
+                                            "name": "value",
+                                            "spec": [
+                                                {
+                                                    "name": "name",
+                                                    "type": "text",
+                                                    "label": "Name",
+                                                    "required": true
+                                                },
+                                                {
+                                                    "name": "value",
+                                                    "type": "text",
+                                                    "label": "Value"
+                                                }
+                                            ],
+                                            "type": "collection",
+                                            "label": "Field"
+                                        },
+                                        "type": "array",
+                                        "label": "Body content",
+                                        "required": true
+                                    },
+                                    {
+                                        "name": "paginationType",
+                                        "type": "select",
+                                        "label": "Pagination type",
+                                        "validate": {
+                                            "enum": [
+                                                "offsetBased",
+                                                "pageBased",
+                                                "urlBased",
+                                                "tokenBased"
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "interface": [
+                                    {
+                                        "name": "data",
+                                        "type": "any",
+                                        "label": "Data"
+                                    },
+                                    {
+                                        "name": "statusCode",
+                                        "type": "number",
+                                        "label": "Status Code"
+                                    },
+                                    {
+                                        "name": "headers",
+                                        "spec": [
+                                            {
+                                                "name": "content-length",
+                                                "type": "text",
+                                                "label": "Content-Length"
+                                            },
+                                            {
+                                                "name": "content-encoding",
+                                                "type": "text",
+                                                "label": "Content-Encoding"
+                                            },
+                                            {
+                                                "name": "content-type",
+                                                "type": "text",
+                                                "label": "Content-Type"
+                                            },
+                                            {
+                                                "name": "server",
+                                                "type": "text",
+                                                "label": "Server"
+                                            },
+                                            {
+                                                "name": "cache-control",
+                                                "type": "text",
+                                                "label": "Cache-Control"
+                                            },
+                                            {
+                                                "name": "set-cookie",
+                                                "spec": {
+                                                    "type": "text"
+                                                },
+                                                "type": "array",
+                                                "label": "Set-Cookie"
+                                            }
+                                        ],
+                                        "type": "collection",
+                                        "label": "Headers"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "metadata": {
+        "instant": false,
+        "version": 1,
+        "scenario": {
+            "roundtrips": 1,
+            "maxErrors": 3,
+            "autoCommit": true,
+            "autoCommitTriggerLast": false,
+            "sequential": true,
+            "slots": null,
+            "confidential": false,
+            "dataloss": false,
+            "dlq": false,
+            "freshVariables": false
+        },
+        "designer": {
+            "orphans": []
+        },
+        "zone": "us2.make.com",
+        "notes": []
+    }
+}
